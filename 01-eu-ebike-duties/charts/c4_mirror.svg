@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="557.206875pt" height="180.921922pt" viewBox="0 0 557.206875 180.921922" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-16T18:10:18.990029</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 180.921922 
+L 557.206875 180.921922 
+L 557.206875 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 32.115938 164.862234 
+L 414.367906 164.862234 
+L 414.367906 29.53625 
+L 32.115938 29.53625 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="63.628239" y="176.112234" transform="rotate(-0 63.628239 176.112234)">2018</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="109.232148" y="176.112234" transform="rotate(-0 109.232148 176.112234)">2019</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="154.836058" y="176.112234" transform="rotate(-0 154.836058 176.112234)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="200.439967" y="176.112234" transform="rotate(-0 200.439967 176.112234)">2021</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="246.043876" y="176.112234" transform="rotate(-0 246.043876 176.112234)">2022</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="291.647786" y="176.112234" transform="rotate(-0 291.647786 176.112234)">2023</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7"/>
+     <g id="text_7">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="337.251695" y="176.112234" transform="rotate(-0 337.251695 176.112234)">2024</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8"/>
+     <g id="text_8">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="382.855605" y="176.112234" transform="rotate(-0 382.855605 176.112234)">2025</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_9">
+      <path d="M 32.115938 164.862234 
+L 414.367906 164.862234 
+" clip-path="url(#p1e8cffde20)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_9">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #8a8984" x="28.615938" y="168.737234" transform="rotate(-0 28.615938 168.737234)">0.8</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_11">
+      <path d="M 32.115938 147.946486 
+L 414.367906 147.946486 
+" clip-path="url(#p1e8cffde20)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_10">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #8a8984" x="28.615938" y="151.821486" transform="rotate(-0 28.615938 151.821486)">0.9</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_13">
+      <path d="M 32.115938 131.030738 
+L 414.367906 131.030738 
+" clip-path="url(#p1e8cffde20)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_14"/>
+     <g id="text_11">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #8a8984" x="28.615938" y="134.905738" transform="rotate(-0 28.615938 134.905738)">1.0</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_15">
+      <path d="M 32.115938 114.11499 
+L 414.367906 114.11499 
+" clip-path="url(#p1e8cffde20)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_16"/>
+     <g id="text_12">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #8a8984" x="28.615938" y="117.98999" transform="rotate(-0 28.615938 117.98999)">1.1</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_17">
+      <path d="M 32.115938 97.199242 
+L 414.367906 97.199242 
+" clip-path="url(#p1e8cffde20)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_18"/>
+     <g id="text_13">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #8a8984" x="28.615938" y="101.074242" transform="rotate(-0 28.615938 101.074242)">1.2</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_19">
+      <path d="M 32.115938 80.283494 
+L 414.367906 80.283494 
+" clip-path="url(#p1e8cffde20)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_20"/>
+     <g id="text_14">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #8a8984" x="28.615938" y="84.158494" transform="rotate(-0 28.615938 84.158494)">1.3</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_21">
+      <path d="M 32.115938 63.367746 
+L 414.367906 63.367746 
+" clip-path="url(#p1e8cffde20)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_22"/>
+     <g id="text_15">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #8a8984" x="28.615938" y="67.242746" transform="rotate(-0 28.615938 67.242746)">1.4</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_23">
+      <path d="M 32.115938 46.451998 
+L 414.367906 46.451998 
+" clip-path="url(#p1e8cffde20)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_24"/>
+     <g id="text_16">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #8a8984" x="28.615938" y="50.326998" transform="rotate(-0 28.615938 50.326998)">1.5</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_25">
+      <path d="M 32.115938 29.53625 
+L 414.367906 29.53625 
+" clip-path="url(#p1e8cffde20)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_26"/>
+     <g id="text_17">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #8a8984" x="28.615938" y="33.41125" transform="rotate(-0 28.615938 33.41125)">1.6</text>
+     </g>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #5f5e5a" x="10.63" y="97.199242" transform="rotate(-90 10.63 97.199242)">China reported ÷ EU recorded</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 49.491027 300.188219 
+L 77.765451 300.188219 
+L 77.765451 104.736474 
+L 49.491027 104.736474 
+z
+" clip-path="url(#p1e8cffde20)" style="fill: #b4b2a9"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 95.094936 300.188219 
+L 123.36936 300.188219 
+L 123.36936 130.103738 
+L 95.094936 130.103738 
+z
+" clip-path="url(#p1e8cffde20)" style="fill: #b4b2a9"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 140.698846 300.188219 
+L 168.97327 300.188219 
+L 168.97327 112.040218 
+L 140.698846 112.040218 
+z
+" clip-path="url(#p1e8cffde20)" style="fill: #b4b2a9"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 186.302755 300.188219 
+L 214.577179 300.188219 
+L 214.577179 99.18253 
+L 186.302755 99.18253 
+z
+" clip-path="url(#p1e8cffde20)" style="fill: #b4b2a9"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 231.906665 300.188219 
+L 260.181088 300.188219 
+L 260.181088 122.266986 
+L 231.906665 122.266986 
+z
+" clip-path="url(#p1e8cffde20)" style="fill: #b4b2a9"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 277.510574 300.188219 
+L 305.784998 300.188219 
+L 305.784998 109.416727 
+L 277.510574 109.416727 
+z
+" clip-path="url(#p1e8cffde20)" style="fill: #b4b2a9"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 323.114483 300.188219 
+L 351.388907 300.188219 
+L 351.388907 65.387178 
+L 323.114483 65.387178 
+z
+" clip-path="url(#p1e8cffde20)" style="fill: #e0612a"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 368.718393 300.188219 
+L 396.992817 300.188219 
+L 396.992817 94.550956 
+L 368.718393 94.550956 
+z
+" clip-path="url(#p1e8cffde20)" style="fill: #e0612a"/>
+   </g>
+   <g id="line2d_27">
+    <path d="M 32.115938 131.030738 
+L 414.367906 131.030738 
+" clip-path="url(#p1e8cffde20)" style="fill: none; stroke: #1a1a19; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 32.115938 164.862234 
+L 32.115938 29.53625 
+" style="fill: none; stroke: #e8e7e3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 32.115937 164.862234 
+L 414.367906 164.862234 
+" style="fill: none; stroke: #e8e7e3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 7.2px; font-family: 'Inter'; text-anchor: middle" x="63.628239" y="99.616606" transform="rotate(-0 63.628239 99.616606)">1.16</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 7.2px; font-family: 'Inter'; text-anchor: middle" x="109.232148" y="124.98387" transform="rotate(-0 109.232148 124.98387)">1.01</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 7.2px; font-family: 'Inter'; text-anchor: middle" x="154.836058" y="106.92035" transform="rotate(-0 154.836058 106.92035)">1.11</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 7.2px; font-family: 'Inter'; text-anchor: middle" x="200.439967" y="94.062662" transform="rotate(-0 200.439967 94.062662)">1.19</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 7.2px; font-family: 'Inter'; text-anchor: middle" x="246.043876" y="117.147118" transform="rotate(-0 246.043876 117.147118)">1.05</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 7.2px; font-family: 'Inter'; text-anchor: middle" x="291.647786" y="104.296859" transform="rotate(-0 291.647786 104.296859)">1.13</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 7.2px; font-family: 'Inter'" transform="translate(330.390883 51.555591)">1.39</text>
+    <text style="font-size: 7.2px; font-family: 'Inter'" transform="translate(315.710195 60.26731)">+1.32m units</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 7.2px; font-family: 'Inter'" transform="translate(375.963292 80.719369)">1.22</text>
+    <text style="font-size: 7.2px; font-family: 'Inter'" transform="translate(361.267417 89.431087)">+1.05m units</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: start; fill: #5f5e5a" x="32.115938" y="25.020648" transform="rotate(-0 32.115938 25.020648)">HS 8711 60 (e-bikes, e-scooters, other electric two-wheelers); pedal-assist e-bikes are under 5% of the recorded units. UN Comtrade and Eurostat.</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 500; font-size: 11px; font-family: 'Inter'; text-anchor: start; fill: #1a1a19" x="32.115938" y="13.53625" transform="rotate(-0 32.115938 13.53625)">China reports shipping more electric two-wheelers to the EU than the EU records arriving</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1e8cffde20">
+   <rect x="32.115938" y="29.53625" width="382.251969" height="135.325984"/>
+  </clipPath>
+ </defs>
+</svg>

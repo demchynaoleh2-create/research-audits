@@ -1,0 +1,29 @@
+# Research audits
+
+Three worked examples of how I check a claim before someone acts on it: claim by claim, against primary sources, with the decision behind the question stated first. Each audit takes someone else's claim — an AI research report, an industry position, an official statement — and tests it.
+
+| # | Claim under audit | Verdict | |
+|---|---|---|---|
+| 03 | **An AI research agent's market report** on Ukraine's IT services exports, written for a partnership decision | Headline numbers match the central bank to within {{ c3.maxdev_pp }} pp; {{ c3.crit_not_full }} of the {{ c3.crit_n }} decision-critical claims are not fully supported ({{ c3.crit_firm }} firmly). {{ c3.n_claims }} claims checked. | [PDF](03-ai-report-audit/report.pdf) |
+| 01 | **The European Commission:** duties curbed Chinese e-bike imports | True on the customs record: monthly imports fell {{ c1.drop_jul_sep|abs|round|int }}% within two months of the July 2018 provisional duty, not "in 2019". China has rebuilt to {{ c1.sh26|round|int }}% of non-EU imports, and a mirror gap of {{ (c1.gap24/1e6)|round(1) }}m electric two-wheelers (2024) suggests the record misses part of the flow. | [PDF](01-eu-ebike-duties/report.pdf) |
+| 02 | **Europe's truckmakers:** heavy trucks don't need battery swapping | Right for single-driver fleets and for an open network, which needs {{ c2.be_ctry_lo|round|int }}–{{ c2.be_ctry_hi|round|int }} swaps a day per station on a battery format Europe lacks. A closed fleet loop with relay drivers can pay from about {{ c2.be_ccs|round|int }} swaps a day. | [PDF](02-truck-battery-swapping/report.pdf) |
+
+![78 claims of an AI report, by the buyer's question and verdict](03-ai-report-audit/charts/c1_claims_grid.png)
+
+## What every audit contains
+- **The decision behind the question** — who is deciding what, and which claims bear on it.
+- **`claims.csv`** — every claim with its class (D documented · I inference · O open), verdict, source URL and exact locator.
+- **The strongest opposite reading** and the facts that would decide between them.
+- **Scenarios with gates** — public signals that switch each scenario on or off.
+- **`code/build.py`** — computes every data-derived number from `data/raw/` into `data/derived/facts.json`; figures quoted from sources and decision thresholds are listed in `claims.csv`.
+
+## Rebuild and check
+```
+pip install -r requirements.txt
+python3 build/build_all.py
+```
+This rebuilds all charts, facts and PDFs from raw data and runs `acceptance/run_checks.py`: {{ n_checks }} checks, including one for every error found by the two independent reviews, so a later edit cannot bring an old error back. PDF rendering needs Google Chrome and the Inter and Charter fonts.
+
+How the work is done, including how AI is used: [METHOD.md](METHOD.md). Review history: [REVIEW_LOG.md](REVIEW_LOG.md).
+
+Oleh Demchyna · independent research auditor · Lviv, Ukraine · paid pilots through Upwork.

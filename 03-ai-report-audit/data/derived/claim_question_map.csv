@@ -1,0 +1,79 @@
+id,question,verdict,v
+C01,Are other buyers staying?,SUPPORTED,supported
+C02,Are other buyers staying?,SUPPORTED,supported
+C03,Are other buyers staying?,SUPPORTED,supported
+C04,Are other buyers staying?,SUPPORTED,supported
+C05,Are other buyers staying?,SUPPORTED,supported
+C06,Are other buyers staying?,SUPPORTED,supported
+C07,Are other buyers staying?,SUPPORTED,supported
+C08,Are other buyers staying?,SUPPORTED,supported
+C09,Are other buyers staying?,UNVERIFIABLE,wrong
+C10,"Background, no bearing on the decision",SUPPORTED_SECONDARY_ONLY,republisher
+C11,"Background, no bearing on the decision",SUPPORTED,supported
+C12,Are other buyers staying?,SUPPORTED,supported
+C13,Are other buyers staying?,SUPPORTED,supported
+C14,Are other buyers staying?,SUPPORTED,supported
+C15,Are other buyers staying?,SUPPORTED,supported
+C16,Is there talent for my stack?,PARTIAL,partial
+C17,"Background, no bearing on the decision",SUPPORTED_SECONDARY_ONLY,republisher
+C18,"Background, no bearing on the decision",SUPPORTED,supported
+C19,"Background, no bearing on the decision",SUPPORTED_SECONDARY_ONLY,republisher
+C20,Are other buyers staying?,CITATION_MISMATCH,wrong
+C21,Are other buyers staying?,SUPPORTED,supported
+C22,Are other buyers staying?,SUPPORTED,supported
+C23,"Background, no bearing on the decision",SUPPORTED_SECONDARY_ONLY,republisher
+C24,Are other buyers staying?,SUPPORTED,supported
+C25,Are other buyers staying?,SUPPORTED,supported
+C26,Are other buyers staying?,SUPPORTED,supported
+C27,Are other buyers staying?,SUPPORTED,supported
+C28,Are other buyers staying?,SUPPORTED,supported
+C29,Are other buyers staying?,SUPPORTED,supported
+C30,Are other buyers staying?,SUPPORTED,supported
+C31,Are other buyers staying?,SUPPORTED,supported
+C32,Are other buyers staying?,SUPPORTED,supported
+C33,Are other buyers staying?,SUPPORTED,supported
+C34,Are other buyers staying?,CITATION_MISMATCH,wrong
+C35,Are other buyers staying?,SUPPORTED,supported
+C36,Are other buyers staying?,PARTIAL,partial
+C37,Are other buyers staying?,SUPPORTED,supported
+C38,Are other buyers staying?,PARTIAL,partial
+C39,Are other buyers staying?,SUPPORTED_SECONDARY_ONLY,republisher
+C40,Is there talent for my stack?,SUPPORTED,supported
+C41,Is there talent for my stack?,SUPPORTED,supported
+C42,"Background, no bearing on the decision",SUPPORTED,supported
+C43,Is there talent for my stack?,PARTIAL,partial
+C44,Is there talent for my stack?,SUPPORTED,supported
+C45,Is there talent for my stack?,SUPPORTED,supported
+C46,Is there talent for my stack?,SUPPORTED,supported
+C47,Is there talent for my stack?,SUPPORTED,supported
+C48,"Can I contract, protect IP and pay?",PARTIAL,partial
+C49,What will it cost?,SUPPORTED,supported
+C50,What will it cost?,UNVERIFIABLE,wrong
+C51,Are other buyers staying?,CITATION_MISMATCH,wrong
+C52,Will a team still deliver in two years?,PARTIAL,partial
+C53,Is there talent for my stack?,SUPPORTED_SECONDARY_ONLY,republisher
+C54,"Background, no bearing on the decision",SUPPORTED_SECONDARY_ONLY,republisher
+C55,Are other buyers staying?,PARTIAL,partial
+C56,"Background, no bearing on the decision",PARTIAL,partial
+C57,Is there talent for my stack?,SUPPORTED_SECONDARY_ONLY,republisher
+C58,Is there talent for my stack?,SUPPORTED_SECONDARY_ONLY,republisher
+C59,Is there talent for my stack?,SUPPORTED_SECONDARY_ONLY,republisher
+C60,Will a team still deliver in two years?,SUPPORTED,supported
+C61,Will a team still deliver in two years?,SUPPORTED,supported
+C62,Will a team still deliver in two years?,SUPPORTED_SECONDARY_ONLY,republisher
+C63,Will a team still deliver in two years?,PARTIAL,partial
+C64,What will it cost?,CITATION_MISMATCH,wrong
+C65,Are other buyers staying?,SUPPORTED,supported
+C66,Are other buyers staying?,SUPPORTED,supported
+C67,Are other buyers staying?,PARTIAL,partial
+C68,"Background, no bearing on the decision",SUPPORTED,supported
+C69,Are other buyers staying?,SUPPORTED,supported
+C70,Are other buyers staying?,SUPPORTED,supported
+C71,"Background, no bearing on the decision",PARTIAL,partial
+C72,Are other buyers staying?,SUPPORTED,supported
+C73,Are other buyers staying?,SUPPORTED,supported
+C74,Are other buyers staying?,PARTIAL,partial
+C75,"Can I contract, protect IP and pay?",CITATION_MISMATCH,wrong
+C76,Are other buyers staying?,SUPPORTED,supported
+C77,"Can I contract, protect IP and pay?",CITATION_MISMATCH,wrong
+C78,Recommendation itself,PARTIAL,partial

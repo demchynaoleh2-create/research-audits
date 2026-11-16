@@ -1,0 +1,23 @@
+{
+  "model": "claude-sonnet-5-5 (Sonnet 5.5)",
+  "date": "2026-11-14",
+  "search_queries": [
+    "Ukraine IT services exports 2025 National Bank of Ukraine billion",
+    "Ukraine IT exports 2022 2023 2024 computer services exports USD billion",
+    "Ukraine IT sector 2026 outlook number of IT specialists Diia City",
+    "Ukraine IT exports first nine months 2026 NBU"
+  ],
+  "urls_opened": [
+    "https://itcluster.lviv.ua/en/gradual-market-stabilization-what-tech-services-exports-looked-like-in-2025/",
+    "https://itukraine.org.ua/en/ukraine-s-it-exports-declined-by-over-4-in-2024-what-next/",
+    "https://scroll.media/en/?p=31670",
+    "https://dev.ua/en/news/it-fopy-naibilshyi-spad-z-2026-roku-1779355898",
+    "https://elbuz.com/en/obsyag-eksportu-it-poslug-z-ukraini-u-2023-roci-skorotivsya-na-8-4",
+    "https://www.bdo.ua/getmedia/e4f36e87-00dd-4b33-a28e-9a921ca39083/BDO_Ukraine_Digital_Recovery_2026-_11-06-2026.pdf",
+    "https://itcluster.lviv.ua/en/ukraines-it-service-export-remains-resilient-h1-2026-results/",
+    "https://dev.ua/en/news/eksport-ukrainskykh-it-posluh-u-veresni-skorotyvsia-do-552-mln-1793609170"
+  ],
+  "urls_cited_but_not_opened": [
+    "https://dou.ua/lenta/articles/it-export-first-quarter-2026/ (appeared in search results only; reference [9])"
+  ]
+}

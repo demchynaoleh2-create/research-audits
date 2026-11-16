@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="532.229469pt" height="229.524444pt" viewBox="0 0 532.229469 229.524444" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-16T18:10:16.315559</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 229.524444 
+L 532.229469 229.524444 
+L 532.229469 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 147.0975 199.785069 
+L 529.349469 199.785069 
+L 529.349469 29.53625 
+L 147.0975 29.53625 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 147.0975 199.785069 
+L 147.0975 29.53625 
+" clip-path="url(#pe2011314f7)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="147.0975" y="211.035069" transform="rotate(-0 147.0975 211.035069)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 226.733327 199.785069 
+L 226.733327 29.53625 
+" clip-path="url(#pe2011314f7)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="226.733327" y="211.035069" transform="rotate(-0 226.733327 211.035069)">5</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 306.369154 199.785069 
+L 306.369154 29.53625 
+" clip-path="url(#pe2011314f7)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="306.369154" y="211.035069" transform="rotate(-0 306.369154 211.035069)">10</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 386.00498 199.785069 
+L 386.00498 29.53625 
+" clip-path="url(#pe2011314f7)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="386.00498" y="211.035069" transform="rotate(-0 386.00498 211.035069)">15</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 465.640807 199.785069 
+L 465.640807 29.53625 
+" clip-path="url(#pe2011314f7)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="465.640807" y="211.035069" transform="rotate(-0 465.640807 211.035069)">20</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #5f5e5a" x="338.223484" y="224.714756" transform="rotate(-0 338.223484 224.714756)">claims (of 78)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_11"/>
+     <g id="text_7">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #1a1a19" x="143.5975" y="185.536375" transform="rotate(-0 143.5975 185.536375)">Contradicted by its own source</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_12"/>
+     <g id="text_8">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #1a1a19" x="143.5975" y="152.036017" transform="rotate(-0 143.5975 152.036017)">Unverifiable</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_13"/>
+     <g id="text_9">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #1a1a19" x="143.5975" y="118.535659" transform="rotate(-0 143.5975 118.535659)">Cited page does not say it</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_14"/>
+     <g id="text_10">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #1a1a19" x="143.5975" y="85.035302" transform="rotate(-0 143.5975 85.035302)">Partly right: base, period or definition</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_15"/>
+     <g id="text_11">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #1a1a19" x="143.5975" y="51.534944" transform="rotate(-0 143.5975 51.534944)">Cited only via a republisher</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 147.0975 192.046486 
+L 147.0975 192.046486 
+L 147.0975 171.276264 
+L 147.0975 171.276264 
+z
+" clip-path="url(#pe2011314f7)" style="fill: #e0612a"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 147.0975 158.546128 
+L 178.951831 158.546128 
+L 178.951831 137.775906 
+L 147.0975 137.775906 
+z
+" clip-path="url(#pe2011314f7)" style="fill: #e0612a"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 147.0975 125.04577 
+L 242.660492 125.04577 
+L 242.660492 104.275548 
+L 147.0975 104.275548 
+z
+" clip-path="url(#pe2011314f7)" style="fill: #e0612a"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 147.0975 91.545412 
+L 354.15065 91.545412 
+L 354.15065 70.775191 
+L 147.0975 70.775191 
+z
+" clip-path="url(#pe2011314f7)" style="fill: #cfcdc6"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 147.0975 58.045055 
+L 322.296319 58.045055 
+L 322.296319 37.274833 
+L 147.0975 37.274833 
+z
+" clip-path="url(#pe2011314f7)" style="fill: #a9c8ee"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 147.0975 199.785069 
+L 147.0975 29.53625 
+" style="fill: none; stroke: #e8e7e3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 147.0975 199.785069 
+L 529.349469 199.785069 
+" style="fill: none; stroke: #e8e7e3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #1a1a19" x="151.87565" y="184.571532" transform="rotate(-0 151.87565 184.571532)">0</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #1a1a19" x="183.72998" y="151.071174" transform="rotate(-0 183.72998 151.071174)">2</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #1a1a19" x="247.438642" y="117.570816" transform="rotate(-0 247.438642 117.570816)">6</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #1a1a19" x="358.928799" y="84.070458" transform="rotate(-0 358.928799 84.070458)">13</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #1a1a19" x="327.074469" y="50.5701" transform="rotate(-0 327.074469 50.5701)">11</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: start; fill: #5f5e5a" x="147.0975" y="24.322192" transform="rotate(-0 147.0975 24.322192)">Claims that were not fully supported by a primary source, by type</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 500; font-size: 11px; font-family: 'Inter'; text-anchor: start; fill: #1a1a19" x="147.0975" y="13.53625" transform="rotate(-0 147.0975 13.53625)">Most problems are sourcing, not invention</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe2011314f7">
+   <rect x="147.0975" y="29.53625" width="382.251969" height="170.248819"/>
+  </clipPath>
+ </defs>
+</svg>

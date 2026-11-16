@@ -1,0 +1,77 @@
+{
+ "pack_kwh": [
+  500,
+  "I",
+  "C31 Swaptopus ~500 kWh"
+ ],
+ "packs": [
+  24,
+  "O",
+  "our assumption for a corridor station"
+ ],
+ "pack_eur_kwh": [
+  100,
+  "I",
+  "C10 BNEF USD 108/kWh, rounded; no truck-specific price"
+ ],
+ "station_ex_battery": [
+  600000,
+  "I",
+  "C11 ~half of USD 1.0-1.5m is battery inventory"
+ ],
+ "capex_low": [
+  630000,
+  "I",
+  "C12 Chinese operator"
+ ],
+ "wacc": [
+  0.08,
+  "O",
+  "assumption"
+ ],
+ "life": [
+  10,
+  "O",
+  "assumption"
+ ],
+ "kwh_per_swap": [
+  300,
+  "O",
+  "60% of a 500 kWh pack"
+ ],
+ "kwh_per_km": [
+  1.1,
+  "I",
+  "typical 40 t e-truck"
+ ],
+ "l_per_km": [
+  0.326,
+  "I",
+  "typical 40 t diesel"
+ ],
+ "swap_min": [
+  5,
+  "D",
+  "C07"
+ ],
+ "mcs_min": [
+  30,
+  "I",
+  "C03/C04 manufacturer claims, 20-80%"
+ ],
+ "mcs_min_hi": [
+  40,
+  "I",
+  "A01 analysts 30-40"
+ ],
+ "ccs_min": [
+  60,
+  "I",
+  "C03"
+ ],
+ "break_min": [
+  45,
+  "D",
+  "C01"
+ ]
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Did EU duties curb Chinese e-bike imports? — Research audit 01</title>
+<link rel="stylesheet" href="../build/style.css"></head><body>
+{% set VL = {"HOLDS_ON_THE_RECORD":"Holds on the record","RIGHT_FOR_DEFINITIVE_MISLEADING_FOR_EFFECT":"Right for the definitive duties; misleading as the date of the effect","HOLDS_THEN_PARTLY_REVERSED":"Held; partly reversed since","PARTLY":"Partly","UNTESTABLE_COUNTERFACTUAL":"Untestable forecast","HOLDS":"Holds"} %}
+
+<section class="page">
+<div class="kicker">Research audit 01 · policy claim · trade data</div>
+<h1>The EU says its duties curbed Chinese e-bike imports. Does the customs record agree?</h1>
+<div class="meta">Oleh Demchyna · 15 November 2026 · {{ f.n_audited }} public claims audited against {{ f.n_evidence }} sourced facts · Eurostat Comext to {{ f.last }}, UN Comtrade, EU law and enforcement records</div>
+<div class="claimbox"><b>The claims under audit.</b> Extending the duties in January 2025, the European Commission said they "have helped mitigate the injurious effect" of dumped and subsidised Chinese e-bikes. Trade press repeated that the measures were "first introduced in 2019" and that China's share of EU imports "dropped like a stone".</div>
+<div class="stats">
+  <div><div class="n">{{ f.drop_jul_sep|pct(0) }}</div><div class="l">monthly imports from China, July → September 2018: two months after the provisional duty, not in 2019</div></div>
+  <div><div class="n c">{{ f.sh19|n(0) }}% → {{ f.sh26|n(0) }}%</div><div class="l">China's share of non-EU e-bike imports, January–September 2019 against the same months of 2026</div></div>
+  <div><div class="n a">{{ (f.gap24/1e6)|n(1) }}m</div><div class="l">more electric two-wheelers (HS 8711 60) China reports shipping to the EU in 2024 than the EU recorded; e-bikes are under 5% of that category</div></div>
+</div>
+<div class="verdict"><div class="label">Verdict</div>
+<p><b>On the customs record, yes — but the collapse came half a year before "2019", the drop has partly reversed, and the record misses part of the flow.</b> Recorded imports from China fell {{ f.drop_jul_sep|n(0)|replace("-","") }}% within two months of the provisional duty of July 2018 and were {{ f.d19_18|n(0)|replace("-","") }}% lower in 2019 than in 2018. China has since rebuilt to about two-fifths of non-EU imports, and customs cases show e-bikes entering outside the record; a mirror gap in the wider electric two-wheeler category ({{ f.ratio24|n(2) }} in 2024 and {{ f.ratio25|n(2) }} in 2025, against {{ f.ratio_lo|n(2) }}–{{ f.ratio_hi|n(2) }} before) is consistent with that but does not measure it. How much harm the duties prevented cannot be read from trade data.</p></div>
+<table>
+<tr><th style="width:28%">Who is asking</th><th style="width:40%">What the evidence says</th><th>What to do</th></tr>
+<tr><td>An importer choosing suppliers to 2030</td><td>Duties run to January 2030; the next risk is a lane that grows fast, as Cambodia now does</td><td>Keep two lanes; document origin and value added now</td></tr>
+<tr><td>An EU producer or trade body</td><td>The measure works at the border it can see; leaks sit in classification, kits and false declarations</td><td>Push enforcement on codes and kits, not higher rates</td></tr>
+<tr><td>Anyone repeating the Commission's line</td><td>"Since 2019" dates the definitive duties; imports collapsed half a year earlier, after the provisional duty of July 2018</td><td>Date the effect from July 2018</td></tr>
+</table>
+<figure><img src="charts/c1_monthly.svg" alt="Monthly EU imports of e-bikes from China with the legal timeline"></figure>
+</section>
+
+<section class="page">
+<h2>The decision behind the question</h2>
+<p>"Did the duties work?" is asked by people with different stakes. An importer wants to know which supply lanes carry duty risk to 2030, when the extended measures expire <span class="ref">[C03]</span>. A producer wants to know whether the protection is real or leaking. The question underneath both is narrower: <b>did the duty change what crosses the border, or only what is declared?</b> Trade statistics record declarations, so the audit checks the official claim against the record and then looks for what the record cannot see.</p>
+<div class="logic">
+  <div class="top"><b>Question</b>Did EU duties curb Chinese e-bike imports, as the Commission and trade press say?</div>
+  <div class="arrow">↓</div>
+  <div class="l"><b>What the record shows</b>A {{ f.drop_jul_sep|n(0)|replace("-","") }}% fall in two months after the July 2018 provisional duty; a halving of declared value per kilo; a partial rebuild since 2020.</div>
+  <div class="r"><b>What the record misses</b>A mirror gap of {{ (f.gap24/1e6)|n(1) }}m units (2024) in the wider category; growth in undutied codes and parts; customs cases on kits, transit and false declarations.</div>
+  <div class="arrow">↓</div>
+  <div class="ev"><b>Evidence and limits</b>Eurostat monthly records, UN Comtrade, EU regulations, OLAF and EPPO releases. Trade data cannot separate the duty's effect from evasion, or e-bikes from e-scooters inside HS 8711 60.</div>
+  <div class="dec"><b>What it means for a decision</b>Treat the duty as effective at the declared border and leaky around it; price any fast-growing third-country lane as the next target.</div>
+</div>
+<h2>Timeline of the measures</h2>
+<table>
+<tr><th style="width:18%">Date</th><th>Step</th></tr>
+<tr><td>May 2018</td><td>Imports from China made subject to registration, which allows duties to be applied retroactively <span class="ref">[C01]</span></td></tr>
+<tr><td>19 July 2018</td><td>Provisional anti-dumping duty of 21.8–83.6% <span class="ref">[C02]</span>; monthly imports fall from {{ f.jul18|n }} to {{ f.sep18|n }} by September</td></tr>
+<tr><td>January 2019</td><td>Definitive anti-dumping and countervailing duties <span class="ref">[C02]</span></td></tr>
+<tr><td>January 2025</td><td>Extended for five years: anti-dumping 9.9–70.1%, countervailing 3.9–17.2% <span class="ref">[C03]</span></td></tr>
+</table>
+<p>The first half of 2018 was not "before duties" either: importers raced to bring bikes in before the measure, and January–June 2018 imports were {{ f.h1_chg|n(0) }}% above the same months of 2017 ({{ f.h1_17|n }} → {{ f.h1_18|n }}). Comparing 2019 with 2018 as a whole therefore mixes a stockpiling spike with the duty itself; against 2017 the fall is {{ f.d19_17|n(0)|replace("-","") }}%.</p>
+</section>
+
+<section class="page">
+<h2>The collapse is real and dated</h2>
+<figure><img src="charts/c2_value_per_kg.svg" alt="Declared value per kg and weight per e-bike, 2017–2019"></figure>
+<p><span class="tag d">D</span> Between July and September 2018 the declared customs value of Chinese e-bikes fell from €{{ f.ekg_jul18|n(1) }} to €{{ f.ekg_sep18|n(1) }} per kilo, while weight per bike rose from {{ f.kgu_jul18|n(0) }} to {{ f.kgu_sep18|n(0) }} kg <span class="ref">[C09]</span>. Per bike, the declared value fell from about €{{ f.uvm_jul18|n(0) }} to €{{ f.uvm_sep18|n(0) }}. A heavier bike declared at a lower value is the most precisely dated behavioural signal in the data. In 2025 a Chinese e-bike was declared at €{{ f.uv_cn|n(0) }} on average, against €{{ f.uv_kh|n(0) }} from Cambodia, €{{ f.uv_vn|n(0) }} from Vietnam and €{{ f.uv_tw|n(0) }} from Taiwan <span class="ref">[C08]</span>, the same ordering LEVA-EU reported for the review period <span class="ref">[C10]</span>.</p>
+<p><span class="tag i">I</span> Two readings fit this. Exporters may have under-declared values to cut the duty base; or the companies that kept selling were those with the lowest individual rates and cheapest ranges, since provisional rates differed by producer from 21.8% to 83.6% <span class="ref">[C02, C13, C27]</span>. The data cannot separate them; customs data by company code could.</p>
+<h2>How the public claims fare</h2>
+<table>
+<tr><th style="width:8%">ID</th><th style="width:20%">Who says it</th><th>Claim</th><th style="width:21%">Verdict</th></tr>
+{% for r in f.audited %}<tr><td>{{ r.id }}</td><td>{{ r.side }}</td><td>{{ r.claim }}</td><td>{{ VL[r.verdict] }}</td></tr>
+{% endfor %}</table>
+</section>
+
+<section class="page">
+<h2>A partial rebuild, and who filled the gap</h2>
+<figure><img src="charts/c3_share_origins.svg" alt="China's share of non-EU e-bike imports and imports by origin"></figure>
+<p><span class="tag d">D</span> China's share of non-EU e-bike imports fell from {{ f.sh18|n(0) }}% in January–September 2018 to {{ f.sh19|n(0) }}% in the same months of 2019, and stood at {{ f.sh26|n(0) }}% in 2026 <span class="ref">[C06]</span>. Chinese imports in January–September 2026 were {{ f.ytd_cn_chg|n(0) }}% above a year earlier ({{ f.ytd_cn25|n }} → {{ f.ytd_cn26|n }}). Taiwan filled most of the gap first, rising from {{ f.tw18|n }} bikes in 2018 to {{ f.tw22|n }} in 2022 <span class="ref">[C07]</span>. Cambodia is the newest lane: {{ f.kh_ytd23|n }} bikes in January–September 2023, {{ f.kh_ytd26|n }} in the same months of 2026, {{ f.kh_share26|n(0) }}% of non-EU imports.</p>
+<p><span class="tag d">D</span> Two legal points are often misstated. <b>The duty attaches to the producer:</b> each named Chinese producer has its own rate, applied only with an invoice declaring who made the bikes; everyone else pays the highest <span class="ref">[C13]</span>. Routing another factory's bikes through a low-rate company is itself a circumvention practice. <b>Assembly elsewhere is not automatically circumvention:</b> meeting the 60% Chinese-parts and 25% value-added thresholds is necessary but not sufficient for a finding; the Commission must also show that the operation began or grew around the investigation and undermines the duty <span class="ref">[C12]</span>. An assembler below 60% Chinese parts, or adding more than 25% of manufacturing cost, falls outside the assembly rule.</p>
+<p><span class="tag i">I</span> The precedent matters: in 2015 the EU extended its duty on conventional Chinese bicycles to bicycles consigned from Cambodia, Pakistan and the Philippines <span class="ref">[C11]</span>. A lane that grows from almost nothing to a tenth of imports in three years is where investigations tend to start.</p>
+</section>
+
+<section class="page">
+<h2>What the record misses</h2>
+<figure><img src="charts/c4_mirror.svg" alt="Mirror ratio of China's reported exports to EU-recorded imports, HS 8711 60"></figure>
+<p><span class="tag d">D</span> In 2018–2023 China reported exporting {{ f.ratio_lo|n(2) }}–{{ f.ratio_hi|n(2) }} times as many HS 8711 60 units to the EU as the EU recorded from China. In 2024 the ratio jumped to {{ f.ratio24|n(2) }}, a gap of {{ (f.gap24/1e6)|n(2) }} million units <span class="ref">[C16]</span>. This is the wider category: e-bikes, e-scooters and other electric two-wheelers. Pedal-assist e-bikes were only {{ f.ebike_share24|n(1) }}% of the units the EU recorded from China, so the gap is {{ f.gap_x_ebikes|n(1) }} times all recorded Chinese e-bike imports; how much of it is e-bikes is unknown.</p>
+<p><span class="tag d">D</span> <b>It is not only timing.</b> Shipments in transit at year-end can open a one-year gap that closes the next year. In 2025 it did not close: China reported {{ (f.cn_rep25/1e6)|n(2) }}m units and the EU recorded {{ (f.eu_rec25/1e6)|n(2) }}m (ratio {{ f.ratio25|n(2) }}); over 2024–2025 together the ratio is {{ f.pooled|n(2) }}, above every year of 2018–2023. Other lanes look different: Cambodia reports more units than the EU records <span class="ref">[C18]</span>, so there is no sign of "Cambodian" bikes that never left Cambodia; Vietnam reports {{ f.vn_lo|n(1) }} to {{ f.vn_hi|n(1) }} times fewer than the EU records as Vietnamese, though Vietnam's quantities are flagged as estimates <span class="ref">[C17]</span>.</p>
+<figure><img src="charts/c5_around_the_code.svg" alt="Chinese imports under 8711 60 90 and parts against finished e-bikes"></figure>
+<p><span class="tag i">I</span> Around the dutiable code, undutied flows grew. In the months after the duty, Chinese imports under 8711 60 90, which is mostly outside the measure, rose from {{ (f.o90_18/1e6)|n(1) }}m (January–September 2018) to {{ (f.o90_19/1e6)|n(1) }}m in 2019 <span class="ref">[C15]</span>. Frames, forks and parts from China rose from €{{ f.parts18|n(0) }}m to €{{ f.parts25|n(0) }}m a year by 2025, while finished e-bikes fell from €{{ f.fin18|n(0) }}m to €{{ f.fin25|n(0) }}m <span class="ref">[C19]</span>. Both fit reclassification and kit imports; both also fit real growth in e-scooters and EU assembly.</p>
+</section>
+
+<section class="page">
+<h2>What enforcement has found</h2>
+<table>
+<tr><th style="width:22%">Case</th><th>What authorities report</th><th style="width:15%">Status</th></tr>
+<tr><td>Calypso, Piraeus (EPPO, 2025)</td><td>2,435 containers seized; at least 500 held e-bikes; on average only 10–15% of the e-bikes in a container were declared <span class="ref">[C20]</span>. Ten arrests in June 2025; two customs officers among those charged <span class="ref">[C21]</span></td><td>Charged</td></tr>
+<tr><td>Poland (OLAF, 2024)</td><td>20,000 Chinese e-bikes diverted from transit to e-commerce warehouses; at least €8m of duties and €4m of VAT at stake, per OLAF's early estimate <span class="ref">[C22]</span></td><td>Intercepted</td></tr>
+<tr><td>Ireland (OLAF, 2025)</td><td>Over 4,000 illegally imported e-bikes seized in e-commerce warehouses <span class="ref">[C23]</span></td><td>Seized</td></tr>
+<tr><td>Kits as parts (EPPO)</td><td>Belgium: first-instance conviction (Antwerp, 2024); Italy and Portugal: investigations of disassembled e-bikes <span class="ref">[C24]</span></td><td>Mixed</td></tr>
+<tr><td>General Court T-529/25 (2026)</td><td>Separately imported parts can be classified as an unassembled e-bike where objective factors show they form a whole <span class="ref">[C25]</span>; may stem from the Belgian case</td><td>Ruling</td></tr>
+</table>
+<p>The cases show three leak routes the record cannot see: under-declared containers, diverted transit, and kits declared as parts. They do not say which is largest; trade data cannot rank them either. EPPO reports that declared values at Piraeus moved closer to market prices after the raids <span class="ref">[C28]</span>.</p>
+<h2>The strongest opposite reading</h2>
+<table>
+<tr><th style="width:50%">The duties worked better than the gaps suggest, if…</th><th>…and worse, if</th></tr>
+<tr><td>The mirror gap is mostly e-scooters, which are outside the measure</td><td>A large share of the gap is pedal-assist e-bikes declared under other codes</td></tr>
+<tr><td>Falling value per kilo reflects the low-rate exporters that survived, not under-declaration <span class="ref">[C27]</span></td><td>Company-level data show the same exporters declaring lower values</td></tr>
+<tr><td>The rebuild since 2024 is US-tariff diversion that reverses when US tariffs ease <span class="ref">[C14]</span></td><td>Chinese volumes keep rising after US tariff relief</td></tr>
+</table>
+<h2>Where we could be wrong</h2>
+<ul>
+<li>Mirror gaps also arise from re-exports, transit to the UK through EU ports, partner attribution and low-value parcels; none is tested here.</li>
+<li>Comext records declarations by importing member state; transit through one country to another is counted at entry, which we treat as EU-wide.</li>
+<li>Comtrade quantities for China in 2025 were read through the public preview interface and checked against the world total, not downloaded in bulk.</li>
+<li>Prosecutors' figures (10–15% declared, €8m at stake) are allegations or early estimates, not court findings.</li>
+</ul>
+</section>
+
+<section class="page">
+<h2>Scenarios to 2027, with gates</h2>
+<table>
+<tr><th style="width:22%">Scenario</th><th style="width:40%">Entry signal</th><th>Cancellation</th></tr>
+<tr><td><b>S1 · Status quo</b><br>duties hold, Cambodia lane open</td><td>No anti-circumvention notice on e-bikes in the Official Journal; Cambodian declared value stays at or above €750</td><td>An initiation notice covering e-bikes consigned from Cambodia</td></tr>
+<tr><td><b>S2 · Cambodia caught</b><br>as conventional bikes were in 2015</td><td>Cambodia above 15% of non-EU e-bike units (now {{ f.kh_share26|n(0) }}%); its declared value drifting toward China's</td><td>An investigation closes without measures</td></tr>
+<tr><td><b>S3 · Classification crackdown</b></td><td>A Commission or national customs notice on classification under 8711 60 90, following T-529/25</td><td>No guidance within 12 months</td></tr>
+<tr><td><b>S4 · Tool reform</b></td><td>The anti-circumvention reform circulated by five member states becomes a Commission proposal <span class="ref">[C26]</span></td><td>No proposal by end-2027</td></tr>
+</table>
+<p class="small">All signals are public and monthly: Eurostat Comext, the Official Journal, Commission and customs notices.</p>
+<h2>The same facts at three levels</h2>
+<div class="cols3">
+<div><h3>Strategy · to 2030</h3>Duties run to January 2030 unless reviewed again. Plan a two-lane supply base; a single "safe" low-cost lane is where the next measure lands.</div>
+<div><h3>Operations · this quarter</h3>Price Chinese supply at duty-inclusive cost. Qualify a second supplier outside Cambodia. Collect origin and value-added evidence before any investigation opens.</div>
+<div><h3>Tactics · this week</h3>Check the code of every pedal-assist product. Add an indemnity clause for retroactive duties. Set an alert for Official Journal notices on electric bicycles.</div>
+</div>
+<h2>Before you repeat the official line</h2>
+<ul>
+<li><b>Keep:</b> recorded imports from China collapsed and China's share fell sharply.</li>
+<li><b>Correct:</b> "first introduced in 2019" → "definitive in January 2019; provisional duty, and the collapse, from July 2018"; "dropped like a stone" → "dropped, and has rebuilt to about two-fifths".</li>
+<li><b>Add:</b> the record understates the flow; enforcement cases and the mirror gap show where.</li>
+</ul>
+<h2>Method and limits</h2>
+<p class="small">Seven public claims and the {{ f.n_evidence }} facts behind them are in <span class="ref">claims.csv</span>; raw data in <span class="ref">data/raw/</span>; every data-derived number in this report is computed by <span class="ref">code/build.py</span> into <span class="ref">data/derived/facts.json</span>. Part-years are compared only with the same months of other years. Legal facts are checked against EUR-Lex. Trade data identify declarations, not intent: the duty's effect and evasion cannot be separated with them.</p>
+</section>
+
+<section class="page">
+<h2>Appendix · Theory map</h2>
+<table>
+<tr><th style="width:20%">Framework</th><th style="width:31%">Mechanism and test</th><th style="width:22%">Holds only if</th><th>What we see</th></tr>
+<tr><td>Fisman &amp; Wei (2004): tax evasion in trade</td><td>Higher tariffs widen mirror gaps and shift declarations to neighbouring low-duty codes</td><td>Their test compares many products; here one product over time</td><td>Gap wider in 2024–2025 than in any year of 2018–2023; the undutied neighbour code grew after the duty</td></tr>
+<tr><td>Javorcik &amp; Narciso (2008): differentiated goods</td><td>Evasion is easier where value is hard to verify: falling declared unit values</td><td>The product mix is stable</td><td>Value per kilo halved in two months; mix may have changed <span class="ref">[C27]</span></td></tr>
+<tr><td>Prusa (2001): trade diversion</td><td>Anti-dumping shifts imports to non-named countries</td><td>Other origins can supply</td><td>Taiwan, then Vietnam and Cambodia, rose as China fell</td></tr>
+<tr><td>Bown &amp; Crowley (2007): trade deflection</td><td>Duties in one market push exports to another</td><td>Exporters face barriers elsewhere</td><td>US-tariff diversion toward the EU is plausible, not tested <span class="ref">[C14]</span></td></tr>
+<tr><td>Becker (1968): crime and punishment</td><td>Evasion responds to detection odds and penalties</td><td>Enforcement is credible</td><td>Declared values at Piraeus rose after the raids <span class="ref">[C28]</span></td></tr>
+</table>
+<p class="small">Frameworks suggest tests; none is evidence that its mechanism operates here. References in <span class="ref">theory_sources.md</span>.</p>
+<h2>Key numbers at a glance</h2>
+<table>
+<tr><th style="width:52%">Measure</th><th style="width:16%" class="num">Value</th><th>Source</th></tr>
+<tr><td>Imports from China, 2017 / 2018 / 2019 / 2025 (units)</td><td class="num">{{ (f.y17/1000)|n(0) }}k / {{ (f.y18/1000)|n(0) }}k / {{ (f.y19/1000)|n(0) }}k / {{ (f.y25/1000)|n(0) }}k</td><td>Eurostat Comext <span class="ref">[C05]</span></td></tr>
+<tr><td>August–December 2018 against the same months of 2017</td><td class="num">{{ f.ad_chg|pct(0) }}</td><td><span class="ref">[C05]</span></td></tr>
+<tr><td>China's share of non-EU imports, Jan–Sep 2018 / 2019 / 2025 / 2026</td><td class="num">{{ f.sh18|n(0) }} / {{ f.sh19|n(0) }} / {{ f.sh25|n(0) }} / {{ f.sh26|n(0) }}%</td><td><span class="ref">[C06]</span></td></tr>
+<tr><td>Cambodia, full years 2023 / 2025 (units)</td><td class="num">{{ f.kh23|n }} / {{ f.kh25|n }}</td><td><span class="ref">[C07]</span></td></tr>
+<tr><td>Mirror ratio, HS 8711 60, 2024 / 2025 / pooled</td><td class="num">{{ f.ratio24|n(2) }} / {{ f.ratio25|n(2) }} / {{ f.pooled|n(2) }}</td><td>UN Comtrade, Eurostat <span class="ref">[C16]</span></td></tr>
+<tr><td>Chinese units under 8711 60 90, Jan–Sep 2018 / 2019 / 2025 / 2026</td><td class="num">{{ (f.o90_18/1e6)|n(2) }}m / {{ (f.o90_19/1e6)|n(2) }}m / {{ (f.o90_25/1e6)|n(2) }}m / {{ (f.o90_26/1e6)|n(2) }}m</td><td><span class="ref">[C15]</span></td></tr>
+</table>
+<div class="endnote">Version 1.0 · 15 November 2026 · Reviewed three times by independent AI reviewers before publication; change log in REVIEW_LOG.md.</div>
+</section>
+</body></html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Do Europe's heavy trucks need battery swapping? — Research audit 02</title>
+<link rel="stylesheet" href="../build/style.css"></head><body>
+{% set VL = {"HOLDS":"Holds","HOLDS_IF_CHARGER_FREE":"Holds if a charger is free","COMPANY_DATA_UNVERIFIABLE":"Unverifiable company data","TARGET_NOT_MEGAWATT_SPECIFIC":"Target misquoted: high-performance, not megawatt, points","HOLDS_BUT_COST_MOVES":"Holds; the cost moves to a fee","HOLDS_ABOVE_ABOUT_7_SWAPS_AT_NOV_2026_DIESEL":"Holds above ~7 swaps a day at Nov 2026 diesel prices","PARTLY":"Partly","PLAN":"Announced plan"} %}
+
+<section class="page">
+<div class="kicker">Research audit 02 · industry claim · heavy-truck electrification</div>
+<h1>Europe's truckmakers say heavy trucks don't need battery swapping. Are they right?</h1>
+<div class="meta">Oleh Demchyna · 14 November 2026 · {{ f.n_audited }} claims from both sides audited against {{ f.n_evidence }} sourced facts · model and data rerunnable from code</div>
+<div class="claimbox"><b>The claim under audit.</b> European truckmakers argue that megawatt charging, which refills a battery from 20% to 80% in 30–40 minutes, fits the driver's legal break, so a battery-swap network like the one CATL and Octopus Energy plan for Europe is not needed (Automotive World, 1 July 2026, citing Nikkei). CATL and Octopus answer that swapping takes five minutes and removes the battery from the truck's price.</div>
+<div class="stats">
+  <div><div class="n">€0</div><div class="l">saved by swapping when one driver charges on a free megawatt charger during the {{ f.break_min }}-minute break the law requires anyway</div></div>
+  <div><div class="n c">{{ f.be_ctry_lo|n(0) }}–{{ f.be_ctry_hi|n(0) }}</div><div class="l">swaps a day an open public station needs to cover its capital where tariffs and power prices can be matched</div></div>
+  <div><div class="n a">{{ f.be_ccs|n(0) }}–{{ f.be_ccs2|n(0) }}</div><div class="l">swaps a day at which a closed fleet loop with relay drivers pays, if only standard (CCS) charging is the alternative</div></div>
+</div>
+<div class="verdict"><div class="label">Verdict</div>
+<p><b>Right for the trucks they sell today and for an open network; wrong to rule swapping out.</b> A single driver loses nothing where a megawatt charger is free during the mandatory break, and about {{ f.save_single_ccs }} minutes per stop on today's CCS; and an open swap network needs {{ f.be_ctry_lo|n(0) }}–{{ f.be_ctry_hi|n(0) }} swaps a day per station on one battery format that Europe does not have. But a fleet that keeps trucks moving with relay drivers can make a closed loop pay from about {{ f.be_ccs|n(0) }}–{{ f.be_ccs2|n(0) }} swaps a day while megawatt chargers remain scarce — and they are scarce.</p></div>
+<table>
+<tr><th style="width:30%">Who is asking</th><th style="width:38%">What the evidence says</th><th>What to do</th></tr>
+<tr><td>A fleet with single-driver long haul</td><td>Charging fits the legal break; swapping saves no time</td><td>Plan on depot plus megawatt charging; book chargers</td></tr>
+<tr><td>A fleet running trucks around the clock</td><td>Each swap saves {{ f.save_mcs|n(0) }}–{{ f.save_ccs|n(0) }} minutes worth €{{ f.earn_mcs|n(0) }}–{{ f.earn_ccs|n(0) }}</td><td>Price a closed loop against your own hourly cost</td></tr>
+<tr><td>An investor in a public swap network</td><td>Capital is covered at {{ f.be_ctry_lo|n(0) }}–{{ f.be_ctry_hi|n(0) }} swaps a day, but only on one pack format</td><td>Wait for a cross-maker standard; it is the gate</td></tr>
+</table>
+<figure><img src="charts/c1_earn_vs_cost.svg" alt="Capital cost per swap against what a swap can earn in each business case"></figure>
+</section>
+
+<section class="page">
+<h2>The decision behind the question</h2>
+<p>"Is swapping needed?" is asked by three different people: a fleet choosing how to refuel electric trucks, an investor deciding whether to fund a swap network, and a policymaker deciding which infrastructure to support. They need different answers. The common question underneath is narrower: <b>in which operations does a five-minute swap earn back the capital it ties up?</b> A swap pays only if each swap earns more than its share of the station's capital — either a price premium (an open network selling energy) or saved truck time (a fleet's own closed loop). We therefore audited both sides' claims against those two earning streams.</p>
+<div class="logic">
+  <div class="top"><b>Question</b>Do Europe's heavy trucks need battery swapping, or does megawatt charging make it redundant?</div>
+  <div class="arrow">↓</div>
+  <div class="l"><b>Time layer</b>Megawatt charging takes 30–40 minutes; the law requires a {{ f.break_min }}-minute break after 4.5 hours. For one driver, the break hides the charge.</div>
+  <div class="r"><b>Money layer</b>A €{{ f.capex_m|n(1) }}m station costs €{{ f.cap20|n(0) }} of capital per swap at 20 swaps a day. It needs a price premium or saved truck time to cover that.</div>
+  <div class="arrow">↓</div>
+  <div class="ev"><b>Evidence and limits</b>Eurostat power prices, the full Scania public-charging price list ({{ f.n_tariffs }} EU rows), a published Dutch truck cost profile, ACEA and Chinese market data. Station capital is not published for Europe; we use our own high build-up.</div>
+  <div class="dec"><b>What it means for a decision</b>Single-driver fleets: charge. Round-the-clock fleets: price a closed loop. Network investors: wait for one battery format.</div>
+</div>
+<h2>How we checked</h2>
+<p>We took the ten claims made by the two sides in the article and tested each against primary data where it exists: EU law for driver breaks and charging targets, Eurostat for electricity, the operator price list for public charging, ACEA for registrations, the Comité National Routier for truck costs. The model that turns these into earnings per swap is a few lines of code; every parameter carries a class — <span class="tag d">D</span>documented, <span class="tag i">I</span>estimate, <span class="tag o">O</span>our assumption — and can be changed and rerun.</p>
+<table>
+<tr><th style="width:36%">Model input</th><th style="width:20%">Value</th><th>Source and class</th></tr>
+<tr><td>Station capital (24 packs × {{ f.pack_kwh }} kWh at €{{ f.pack_eur_kwh }}/kWh, plus station)</td><td class="num">€{{ f.capex_m|n(1) }}m</td><td><span class="tag i">I</span>our own build-up, above the published USD 1.0–1.5m <span class="ref">[C11]</span>; one Chinese operator reports €{{ f.capex_low_k|n(0) }}k <span class="ref">[C12]</span></td></tr>
+<tr><td>Cost of capital, life</td><td class="num">{{ (f.wacc*100)|n(0) }}%, {{ f.life }} years</td><td><span class="tag o">O</span>assumption</td></tr>
+<tr><td>Energy exchanged per swap</td><td class="num">{{ f.kwh_per_swap }} kWh</td><td><span class="tag o">O</span>60% of a {{ f.pack_kwh }} kWh pack</td></tr>
+<tr><td>Median preferred public tariff, EU rows of the list ({{ f.n_countries }} countries)</td><td class="num">€{{ f.median_tariff|n(3) }}/kWh</td><td><span class="tag d">D</span>Scania price list, 1 Nov 2026, all {{ f.n_tariffs }} EU rows</td></tr>
+<tr><td>Industrial electricity, EU-27, 0.5–2 GWh band</td><td class="num">€{{ f.eu_dep|n(3) }}/kWh</td><td><span class="tag d">D</span>Eurostat, {{ f.period }}</td></tr>
+<tr><td>Cost of a standing truck with driver</td><td class="num">€{{ f.hour|n(0) }}/h</td><td><span class="tag i">I</span>derived from CNR's 2024 Dutch cost profile</td></tr>
+</table>
+</section>
+
+<section class="page">
+<h2>Time: the break hides the charge — for one driver</h2>
+<figure><img src="charts/c2_minutes.svg" alt="Minutes per energy stop for swap, megawatt and CCS charging against the 45-minute break"></figure>
+<p><span class="tag d">D</span> EU law requires a {{ f.break_min }}-minute break after 4.5 hours of driving <span class="ref">[C01]</span>, and the EU's charging regulation explicitly aims for recharging within that break <span class="ref">[C02]</span>. Truckmakers say megawatt charging refills 20–80% in about 30 minutes <span class="ref">[C03, C04]</span>; analysts say 30–40. Both fit inside the break. Renault Trucks adds that its 660 km range covers 80% of long-haul missions, 90% with one fast-charge break <span class="ref">[A02]</span> — a claim we cannot check, because the data are not published.</p>
+<p><span class="tag i">I</span> The argument has two conditions the truckmakers do not state. <b>First, a charger must be free.</b> Germany had seven public megawatt points at the end of April 2026 <span class="ref">[C26]</span>. The truckmakers' joint venture targets at least 1,700 high-performance points across Europe by 2027, without saying how many will be megawatt-capable <span class="ref">[A04, C24]</span>. Today most trucks would charge on standard CCS, at about an hour — longer than the break. <b>Second, the driver must actually stop.</b> A truck run by relay drivers or in two shifts does not wait for a rest break; the driver changes and the truck goes on. There the charge is pure downtime, and a swap saves {{ f.save_mcs|n(0) }} minutes against megawatt charging or {{ f.save_ccs|n(0) }} against CCS <span class="ref">[C32]</span>.</p>
+<h2>What both sides get right</h2>
+<table>
+<tr><th style="width:9%">ID</th><th style="width:46%">Claim</th><th>Verdict</th></tr>
+{% for r in f.audited if r.id in ["A01","A03","A05","A08"] %}<tr><td>{{ r.id }}</td><td>{{ r.claim }}</td><td>{{ VL[r.verdict] }}</td></tr>
+{% endfor %}</table>
+<p>The disagreement is not about facts but about which operation is typical. Truckmakers describe a single-driver tour with a long break; CATL describes Chinese fleets running trucks hard between mines, ports and plants.</p>
+</section>
+
+<section class="page">
+<h2>Money, case 1: an open public network</h2>
+<figure><img src="charts/c3_open_breakeven.svg" alt="Swaps per day needed to cover capital, by country"></figure>
+<p><span class="tag i">I</span> An open swap station sells energy, so its margin is the gap between what truckers pay at public chargers and what the station pays for power. On the full price list — {{ f.n_tariffs }} EU truck tariffs from {{ f.n_operators }} operators, €{{ f.tariff_min|n(2) }}–{{ f.tariff_max|n(2) }}/kWh, median €{{ f.median_tariff|n(3) }} <span class="ref">[C18]</span> — that gap is €{{ f.eu_prem|n(3) }}/kWh against EU industrial power. A swap of {{ f.kwh_per_swap }} kWh thus earns €{{ f.earn_open|n(0) }}, and the station covers its capital at {{ f.be_eu|n(1) }} swaps a day. Matching each country's tariff with its own power price gives {{ f.be_ctry_lo|n(1) }} ({{ f.ctry_lo }}) to {{ f.be_ctry_hi|n(1) }} ({{ f.ctry_hi }}) <span class="ref">[C14]</span>. With the cheapest published station capital, the threshold falls to about {{ f.be_eu_low|n(0) }}.</p>
+<p>That volume is modest: at roughly 270 km per swap, {{ f.be_ctry_lo|n(0) }}–{{ f.be_ctry_hi|n(0) }} swaps a day is {{ f.trucks_lo|n(0) }}–{{ f.trucks_hi|n(0) }} trucks swapping twice daily (our illustration). <b>The barrier is not traffic but format.</b> An open network needs that volume at every station along a corridor, on one battery that fits trucks of several brands. No such standard is adopted in Europe <span class="ref">[C15]</span>, the three largest truckmakers own the competing charging network <span class="ref">[C24]</span>, and they have said they will not adopt a CATL-led standard <span class="ref">[A03]</span>.</p>
+<p class="small">Capital only: the calculation leaves out staff, grid connection fees, land and battery wear, so the real thresholds are higher. It also assumes every swap sells at the public tariff.</p>
+<h2>Is a swap cheaper than diesel?</h2>
+<p>The swap advocates say swapping costs more than charging but less than diesel <span class="ref">[A07]</span>. In Germany a swap is cheaper per km than diesel above about {{ f.swap_eq_diesel|n(0) }} swaps a day and always dearer than depot charging. That rests on November 2026 diesel prices, near a peak; at the 2025 average (€{{ f.diesel_25|n(2) }} a litre before VAT) the threshold is about {{ f.swap_eq_diesel25|n(0) }} swaps a day.</p>
+<figure><img src="charts/c4_cost_per_km.svg" alt="Energy cost per km in Germany by option"></figure>
+</section>
+
+<section class="page">
+<h2>Money, case 2: a fleet's own closed loop</h2>
+<p><span class="tag i">I</span> In a closed loop the fleet owns the station and the alternative is charging at its own depot, so there is no price premium to earn. The case rests on time. A Dutch 40-tonne truck on international routes costs €{{ f.driver_hour|n(2) }} per driving hour in driver pay plus €{{ f.time_cost|n(2) }} in financing, insurance, taxes and overheads <span class="ref">[C28]</span>: about €{{ f.hour|n(0) }} for every driving hour it loses <span class="ref">[C29]</span>. A truck run in two shifts spreads its fixed costs over twice the hours, which gives about €{{ f.hour2|n(0) }}; the thresholds below then rise to {{ f.be_ccs2|n(0) }} (CCS) and {{ f.be_mcs2|n(0) }} (megawatt). Fuel, tyres and tolls are left out because a standing truck does not use them.</p>
+<table>
+<tr><th style="width:40%">Operation</th><th style="width:20%">Minutes saved per swap</th><th style="width:18%">Worth per swap</th><th>Pays from (€{{ f.capex_m|n(1) }}m / €{{ f.capex_low_k|n(0) }}k station)</th></tr>
+<tr><td>One driver, megawatt charger free in the break</td><td class="num">0</td><td class="num">€0</td><td>never</td></tr>
+<tr><td>One driver, only CCS charging</td><td class="num">{{ f.save_single_ccs }}</td><td class="num">€{{ f.earn_single_ccs|n(0) }}</td><td>{{ f.be_single|n(0) }} / {{ f.be_single_low|n(0) }} swaps a day</td></tr>
+<tr><td>Relay drivers, megawatt charger free</td><td class="num">{{ f.save_mcs|n(0) }}</td><td class="num">€{{ f.earn_mcs|n(0) }}</td><td>{{ f.be_mcs|n(0) }} / {{ f.be_mcs_low|n(0) }} swaps a day</td></tr>
+<tr><td>Relay drivers, only CCS charging</td><td class="num">{{ f.save_ccs|n(0) }}</td><td class="num">€{{ f.earn_ccs|n(0) }}</td><td>{{ f.be_ccs|n(0) }} / {{ f.be_ccs_low|n(0) }} swaps a day</td></tr>
+</table>
+<figure><img src="charts/c6_closed_sensitivity.svg" alt="Swaps a day needed for a closed loop to pay, by hourly truck cost"></figure>
+<p>At 20 swaps a day a swap must save at least {{ f.min_needed_20|n(0) }} minutes to pay for itself on the high capital estimate. That rules out single-driver fleets and favours depots, ports, quarries and parcel hubs that run trucks in shifts — exactly the closed, high-use operations where Chinese swapping grew. The €{{ f.hour|n(0) }} figure is for a diesel truck; an electric truck's financing costs more, which raises the value of its time and favours swapping.</p>
+<p class="small">The swap advocates' second argument — that leasing the battery takes it out of the truck's price <span class="ref">[A06]</span> — is true but moves the cost into a fee rather than removing it; the station's capital above is that cost.</p>
+<h2>Where we could be wrong</h2>
+<ul>
+<li>Station capital in Europe is unpublished. We use our own high build-up of €{{ f.capex_m|n(1) }}m; at €{{ f.capex_low_k|n(0) }}k every threshold falls by about two-thirds.</li>
+<li>The €{{ f.hour|n(0) }} hourly cost is one country's profile (the Netherlands, 2024); Eastern European costs are lower.</li>
+<li>Charging times are manufacturer and analyst figures, not independent measurements.</li>
+<li>Renault's mission data and Chinese market statistics cannot be checked against raw records.</li>
+</ul>
+</section>
+
+<section class="page">
+<h2>What China shows, and what it does not</h2>
+<figure><img src="charts/c5_adoption.svg" alt="China swap share and EU electric heavy-truck share"></figure>
+<p><span class="tag d">D</span> CATL ran 305 heavy-truck swap stations at the end of 2025 and targets 900 in 2026 <span class="ref">[C06]</span>. But swap-capable trucks held a steady share of about {{ f.cn_icct }}% of China's electric heavy-truck sales in 2023–2025 <span class="ref">[C20]</span>; one compiler shows {{ f.cn_cv25|n(0) }}% in 2025 and {{ f.cn_cv26|n(0) }}% in January–September 2026 <span class="ref">[C21]</span>. Earlier figures near 55% come from other compilers with other scopes and are not comparable <span class="ref">[C22]</span>. China built swapping alongside charging, in a market where electric trucks are a quarter of sales; it did not replace charging. In the EU, electrically chargeable trucks were {{ f.eu_share25|n(1) }}% of new heavy trucks in 2025 and {{ f.eu_ytd26|n(1) }}% in January–September 2026 ({{ f.eu_q326|n(1) }}% in the third quarter) <span class="ref">[C09, C23]</span>.</p>
+<h2>The strongest opposite reading</h2>
+<table>
+<tr><th style="width:50%">Swapping will be needed in Europe after all if…</th><th>…and it is not needed if</th></tr>
+<tr><td>Megawatt charging stays scarce: fewer than 100 public points in Germany by end-2027 (7 in April 2026)</td><td>The 2027 target is broadly met with a large share of megawatt-capable points, and charge times stay at 30–40 minutes</td></tr>
+<tr><td>Chinese truckmakers bring swap-ready trucks to Europe and win round-the-clock fleets</td><td>European fleets stay single-driver and the break keeps hiding the charge</td></tr>
+<tr><td>Battery leasing proves decisive for fleets that cannot finance a €100,000+ battery</td><td>Truck prices fall enough that the battery's upfront cost stops being the barrier</td></tr>
+</table>
+</section>
+
+<section class="page">
+<h2>Scenarios, with gates</h2>
+<table>
+<tr><th style="width:24%">Scenario</th><th style="width:40%">Entry signal</th><th>Cancellation</th></tr>
+<tr><td><b>S1 · Charging wins</b> — the truckmakers' path</td><td>More than 100 public MCS points in Germany; median preferred tariff below €0.30/kWh</td><td>MCS build-out stalls below target through 2027</td></tr>
+<tr><td><b>S2 · Closed-loop niche</b></td><td>Swaptopus opens UK hubs in 2027 serving third-party trucks <span class="ref">[A10]</span>; a European fleet signs for a closed loop</td><td>No operating European site by end-2028</td></tr>
+<tr><td><b>S3 · Open network</b></td><td>Two or more European truckmakers adopt one swap format (DIN SPEC 91533 or a CATL design) <span class="ref">[C08]</span></td><td>Formal rejection by the major makers; standard work abandoned</td></tr>
+</table>
+<p class="small">All signals are public: the German charging-network registry, the Scania price list, company announcements and standards bodies. Check them quarterly.</p>
+<h2>The same facts at three levels</h2>
+<div class="cols3">
+<div><h3>Strategy · to 2030</h3>Treat charging as the default and swapping as an option for high-use closed operations. A public swap network is a bet on a standard that does not exist yet.</div>
+<div><h3>Operations · this year</h3>Count how many of your trucks run with relay drivers or two shifts. Price a closed loop at your own hourly cost against the thresholds above.</div>
+<div><h3>Tactics · this month</h3>Ask your truck supplier for megawatt charging access along your routes, and ask any swap vendor for capital per station and the battery format.</div>
+</div>
+<h2>Before you act on either side's claim</h2>
+<ul>
+<li><b>Keep:</b> the break argument for single-driver tours; the standardisation barrier for open networks.</li>
+<li><b>Correct:</b> "swapping is not needed" → "not needed where a driver must stop anyway"; "China proves it scales" → "it scaled alongside charging: about 30% of electric heavy-truck sales in 2023–2025, and lower in 2026 on the one series available".</li>
+<li><b>Obtain:</b> your fleet's hours of truck use per day; a vendor's station capital and pack price in writing; charger availability on your routes.</li>
+</ul>
+<h2>Method and limits</h2>
+<p class="small">The ten audited claims and the {{ f.n_evidence }} facts behind them are in <span class="ref">claims.csv</span>; raw data in <span class="ref">data/raw/</span>; every data-derived number in this report is computed by <span class="ref">code/build.py</span> and written to <span class="ref">data/derived/facts.json</span>. Earnings per swap cover capital only, not a full profit-and-loss account. The cost of a standing truck is derived from a published diesel-truck profile.</p>
+</section>
+
+<section class="page">
+<h2>Appendix · Theory map</h2>
+<table>
+<tr><th style="width:20%">Framework</th><th style="width:31%">Mechanism and test</th><th style="width:22%">Holds only if</th><th>What we see</th></tr>
+<tr><td>Katz &amp; Shapiro (1985): network externalities</td><td>Firms with a large installed base may prefer incompatibility. Test: do incumbents block a shared standard?</td><td>Incumbents gain more from lock-in than from a bigger market</td><td>Truckmakers own the charging network and reject a CATL-led format</td></tr>
+<tr><td>David (1985); Arthur (1989): lock-in</td><td>Early adoption can tip a market to one technology. Test: is a format gaining irreversible share?</td><td>Increasing returns to adoption</td><td>EU infrastructure is tipping toward charging; electric trucks are still 2–3% of sales</td></tr>
+<tr><td>Williamson (1985): asset specificity</td><td>Assets tied to one partner invite hold-up and favour integration. Test: who owns the swap station and pack?</td><td>The pack is specific to one format</td><td>Closed loops, where the fleet owns both, avoid the hold-up an open network faces</td></tr>
+<tr><td>Better Place (2013): single-format precedent</td><td>A swap network tied to one vehicle model failed <span class="ref">[C30]</span></td><td>Passenger cars, not trucks</td><td>Warns against open networks before a standard</td></tr>
+<tr><td>Dixit &amp; Pindyck (1994): real options</td><td>Under irreversibility and uncertainty, waiting has value</td><td>Investment is hard to reverse</td><td>Supports waiting on open networks and piloting closed loops</td></tr>
+</table>
+<p class="small">Frameworks suggest tests; none is evidence that its mechanism operates here. References in <span class="ref">theory_sources.md</span>.</p>
+<h2>Register · the ten audited claims</h2>
+<table>
+<tr><th style="width:6%">ID</th><th style="width:13%">Side</th><th>Claim</th><th style="width:22%">Verdict</th></tr>
+{% for r in f.audited %}<tr><td>{{ r.id }}</td><td>{{ r.side }}</td><td>{{ r.claim }}</td><td>{{ VL[r.verdict] }}</td></tr>
+{% endfor %}</table>
+<div class="endnote">Version 1.0 · 14 November 2026 · Reviewed three times by independent AI reviewers before publication; change log in REVIEW_LOG.md.</div>
+</section>
+</body></html>

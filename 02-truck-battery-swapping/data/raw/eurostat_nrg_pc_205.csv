@@ -1,0 +1,841 @@
+time,country,consumption_band,consumption_band_label,value,unit,tax,tax_label,status,observation_status
+2019-S1,DE,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2019-S1,DE,MWH_LT20,Consumption less than 20 MWh - band IA,0.225,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,DE,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1777,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,DE,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1557,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,DE,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.131,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,DE,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0904,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,DE,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0931,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,DE,MWH_GE150000,Consumption 150 000 MWh or over - band IG,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2019-S1,ES,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2019-S1,ES,MWH_LT20,Consumption less than 20 MWh - band IA,0.2399,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,ES,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.148,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,ES,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1148,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,ES,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.0967,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,ES,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0864,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,ES,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0779,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,ES,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0678,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,EU27_2020,TOT_KWH,Consumption of kWh - all bands,0.1057,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,EU27_2020,MWH_LT20,Consumption less than 20 MWh - band IA,0.2047,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,EU27_2020,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1487,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,EU27_2020,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1218,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,EU27_2020,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1045,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,EU27_2020,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0846,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,EU27_2020,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0779,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,EU27_2020,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0625,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,FR,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2019-S1,FR,MWH_LT20,Consumption less than 20 MWh - band IA,0.1571,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,FR,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1311,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,FR,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1024,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,FR,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.0835,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,FR,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0717,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,FR,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0604,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,FR,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0504,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,IT,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2019-S1,IT,MWH_LT20,Consumption less than 20 MWh - band IA,0.3137,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,IT,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.189,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,IT,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1647,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,IT,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1417,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,IT,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1114,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,IT,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0897,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,IT,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0712,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,NL,TOT_KWH,Consumption of kWh - all bands,0.104,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,NL,MWH_LT20,Consumption less than 20 MWh - band IA,0.222,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,NL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.151,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,NL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.099,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,NL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.088,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,NL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.066,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,NL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.061,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,NL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.05,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,PL,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2019-S1,PL,MWH_LT20,Consumption less than 20 MWh - band IA,0.1408,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,PL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1221,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,PL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1003,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,PL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.0925,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,PL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0857,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,PL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.086,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S1,PL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0684,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,DE,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2019-S2,DE,MWH_LT20,Consumption less than 20 MWh - band IA,0.2289,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,DE,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1863,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,DE,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1608,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,DE,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1361,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,DE,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1093,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,DE,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0925,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,DE,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0768,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,ES,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2019-S2,ES,MWH_LT20,Consumption less than 20 MWh - band IA,0.2544,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,ES,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1438,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,ES,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1104,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,ES,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.0928,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,ES,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0805,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,ES,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0709,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,ES,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0612,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,EU27_2020,TOT_KWH,Consumption of kWh - all bands,0.0859,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,EU27_2020,MWH_LT20,Consumption less than 20 MWh - band IA,0.2077,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,EU27_2020,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1466,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,EU27_2020,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1192,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,EU27_2020,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1031,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,EU27_2020,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0861,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,EU27_2020,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.075,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,EU27_2020,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0662,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,FR,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2019-S2,FR,MWH_LT20,Consumption less than 20 MWh - band IA,0.1704,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,FR,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1271,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,FR,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.095,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,FR,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.0789,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,FR,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.065,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,FR,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0578,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,FR,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0488,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,IT,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2019-S2,IT,MWH_LT20,Consumption less than 20 MWh - band IA,0.3073,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,IT,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1865,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,IT,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1616,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,IT,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1399,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,IT,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1157,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,IT,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0949,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,IT,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0813,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,NL,TOT_KWH,Consumption of kWh - all bands,0.0878,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,NL,MWH_LT20,Consumption less than 20 MWh - band IA,0.206,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,NL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.121,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,NL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.095,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,NL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.088,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,NL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.055,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,NL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.054,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,NL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.048,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,PL,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2019-S2,PL,MWH_LT20,Consumption less than 20 MWh - band IA,0.143,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,PL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1085,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,PL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.0828,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,PL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.0767,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,PL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0747,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,PL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0666,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2019-S2,PL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0855,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,DE,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2020-S1,DE,MWH_LT20,Consumption less than 20 MWh - band IA,0.2455,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,DE,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2012,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,DE,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1781,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,DE,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1509,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,DE,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1206,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,DE,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1007,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,DE,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0643,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,ES,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2020-S1,ES,MWH_LT20,Consumption less than 20 MWh - band IA,0.2505,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,ES,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.146,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,ES,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1076,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,ES,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.0841,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,ES,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0705,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,ES,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0613,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,ES,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0503,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,EU27_2020,TOT_KWH,Consumption of kWh - all bands,0.0782,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,EU27_2020,MWH_LT20,Consumption less than 20 MWh - band IA,0.2108,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,EU27_2020,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.154,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,EU27_2020,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1255,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,EU27_2020,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1064,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,EU27_2020,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.087,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,EU27_2020,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0738,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,EU27_2020,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0588,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,FR,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2020-S1,FR,MWH_LT20,Consumption less than 20 MWh - band IA,0.169,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,FR,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1422,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,FR,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1057,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,FR,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.0851,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,FR,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0713,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,FR,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0588,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,FR,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0535,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,IT,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2020-S1,IT,MWH_LT20,Consumption less than 20 MWh - band IA,0.2952,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,IT,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1729,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,IT,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1503,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,IT,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.128,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,IT,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0972,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,IT,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0698,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,IT,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0578,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,NL,TOT_KWH,Consumption of kWh - all bands,0.1044,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,NL,MWH_LT20,Consumption less than 20 MWh - band IA,0.2373,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,NL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1607,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,NL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1124,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,NL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1005,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,NL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0699,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,NL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0628,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,NL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0527,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,PL,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2020-S1,PL,MWH_LT20,Consumption less than 20 MWh - band IA,0.1619,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,PL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1313,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,PL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1086,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,PL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.0981,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,PL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0882,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,PL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0802,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S1,PL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0753,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,DE,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2020-S2,DE,MWH_LT20,Consumption less than 20 MWh - band IA,0.2485,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,DE,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2036,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,DE,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1818,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,DE,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1534,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,DE,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1271,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,DE,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1122,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,DE,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0733,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,ES,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2020-S2,ES,MWH_LT20,Consumption less than 20 MWh - band IA,0.2431,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,ES,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1479,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,ES,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1175,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,ES,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.084,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,ES,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0728,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,ES,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0649,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,ES,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0542,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,EU27_2020,TOT_KWH,Consumption of kWh - all bands,0.087,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,EU27_2020,MWH_LT20,Consumption less than 20 MWh - band IA,0.2096,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,EU27_2020,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.15,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,EU27_2020,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1259,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,EU27_2020,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1072,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,EU27_2020,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0884,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,EU27_2020,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0776,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,EU27_2020,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0625,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,FR,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2020-S2,FR,MWH_LT20,Consumption less than 20 MWh - band IA,0.1815,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,FR,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1269,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,FR,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.0954,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,FR,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.0807,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,FR,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0682,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,FR,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0596,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,FR,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0514,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,IT,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2020-S2,IT,MWH_LT20,Consumption less than 20 MWh - band IA,0.2612,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,IT,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.167,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,IT,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1514,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,IT,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1309,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,IT,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1001,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,IT,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.077,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,IT,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0652,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,NL,TOT_KWH,Consumption of kWh - all bands,0.0958,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,NL,MWH_LT20,Consumption less than 20 MWh - band IA,0.2372,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,NL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1297,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,NL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1087,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,NL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,NL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0573,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,NL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0592,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,NL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0514,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,PL,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2020-S2,PL,MWH_LT20,Consumption less than 20 MWh - band IA,0.1708,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,PL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.13,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,PL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1077,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,PL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.0962,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,PL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0884,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,PL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0794,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2020-S2,PL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0796,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,DE,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2021-S1,DE,MWH_LT20,Consumption less than 20 MWh - band IA,0.2492,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,DE,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2043,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,DE,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1813,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,DE,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1501,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,DE,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1267,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,DE,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1149,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,DE,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0882,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,ES,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2021-S1,ES,MWH_LT20,Consumption less than 20 MWh - band IA,0.2322,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,ES,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1404,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,ES,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1074,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,ES,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.0877,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,ES,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0779,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,ES,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0689,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,ES,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0619,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,EU27_2020,TOT_KWH,Consumption of kWh - all bands,0.0914,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,EU27_2020,MWH_LT20,Consumption less than 20 MWh - band IA,0.2114,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,EU27_2020,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1571,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,EU27_2020,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.129,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,EU27_2020,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1095,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,EU27_2020,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.093,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,EU27_2020,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0836,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,EU27_2020,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0719,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,FR,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2021-S1,FR,MWH_LT20,Consumption less than 20 MWh - band IA,0.1764,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,FR,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.145,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,FR,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1057,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,FR,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.087,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,FR,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0752,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,FR,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0658,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,FR,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0554,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,IT,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2021-S1,IT,MWH_LT20,Consumption less than 20 MWh - band IA,0.2777,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,IT,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.179,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,IT,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1584,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,IT,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.134,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,IT,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1061,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,IT,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0902,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,IT,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0774,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,NL,TOT_KWH,Consumption of kWh - all bands,0.1097,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,NL,MWH_LT20,Consumption less than 20 MWh - band IA,0.2424,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,NL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1666,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,NL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1182,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,NL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1072,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,NL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0751,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,NL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0615,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,NL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.055,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,PL,TOT_KWH,Consumption of kWh - all bands,,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,missing
+2021-S1,PL,MWH_LT20,Consumption less than 20 MWh - band IA,0.1732,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,PL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1341,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,PL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1092,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,PL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.0958,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,PL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0888,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,PL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0831,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S1,PL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0831,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,DE,TOT_KWH,Consumption of kWh - all bands,0.1665,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,DE,MWH_LT20,Consumption less than 20 MWh - band IA,0.2544,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,DE,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2073,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,DE,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.186,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,DE,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1642,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,DE,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1349,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,DE,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1347,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,DE,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1311,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,ES,TOT_KWH,Consumption of kWh - all bands,0.1466,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,ES,MWH_LT20,Consumption less than 20 MWh - band IA,0.2269,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,ES,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1495,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,ES,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1459,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,ES,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1528,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,ES,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.134,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,ES,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1262,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,ES,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1234,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,EU27_2020,TOT_KWH,Consumption of kWh - all bands,0.1411,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,EU27_2020,MWH_LT20,Consumption less than 20 MWh - band IA,0.2203,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,EU27_2020,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1668,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,EU27_2020,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1447,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,EU27_2020,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1316,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,EU27_2020,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1161,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,EU27_2020,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1154,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,EU27_2020,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1129,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,FR,TOT_KWH,Consumption of kWh - all bands,0.1068,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,FR,MWH_LT20,Consumption less than 20 MWh - band IA,0.1838,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,FR,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1301,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,FR,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1018,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,FR,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.0882,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,FR,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0859,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,FR,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0883,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,FR,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0767,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,IT,TOT_KWH,Consumption of kWh - all bands,0.1875,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,IT,MWH_LT20,Consumption less than 20 MWh - band IA,0.2661,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,IT,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2067,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,IT,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1853,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,IT,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1607,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,IT,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.147,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,IT,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.154,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,IT,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1506,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,NL,TOT_KWH,Consumption of kWh - all bands,0.12,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,NL,MWH_LT20,Consumption less than 20 MWh - band IA,0.2491,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,NL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1475,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,NL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1294,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,NL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1289,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,NL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0807,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,NL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.071,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,NL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0924,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,PL,TOT_KWH,Consumption of kWh - all bands,0.1128,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,PL,MWH_LT20,Consumption less than 20 MWh - band IA,0.1822,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,PL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1379,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,PL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1104,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,PL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.0992,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,PL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0926,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,PL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0905,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2021-S2,PL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0954,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,DE,TOT_KWH,Consumption of kWh - all bands,0.1978,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,DE,MWH_LT20,Consumption less than 20 MWh - band IA,0.264,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,DE,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2316,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,DE,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2132,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,DE,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1928,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,DE,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1768,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,DE,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1634,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,DE,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1734,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,ES,TOT_KWH,Consumption of kWh - all bands,0.2074,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,ES,MWH_LT20,Consumption less than 20 MWh - band IA,0.3072,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,ES,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2111,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,ES,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1879,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,ES,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1902,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,ES,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1993,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,ES,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.2008,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,ES,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.2104,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,EU27_2020,TOT_KWH,Consumption of kWh - all bands,0.1835,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,EU27_2020,MWH_LT20,Consumption less than 20 MWh - band IA,0.2511,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,EU27_2020,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2064,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,EU27_2020,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1837,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,EU27_2020,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1742,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,EU27_2020,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1621,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,EU27_2020,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1644,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,EU27_2020,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1644,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,FR,TOT_KWH,Consumption of kWh - all bands,0.132,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,FR,MWH_LT20,Consumption less than 20 MWh - band IA,0.1989,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,FR,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1564,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,FR,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1273,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,FR,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1253,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,FR,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1077,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,FR,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1231,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,FR,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.091,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,IT,TOT_KWH,Consumption of kWh - all bands,0.2596,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,IT,MWH_LT20,Consumption less than 20 MWh - band IA,0.3232,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,IT,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2687,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,IT,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2525,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,IT,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.2344,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,IT,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.2253,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,IT,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.25,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,IT,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.2615,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,NL,TOT_KWH,Consumption of kWh - all bands,0.1701,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,NL,MWH_LT20,Consumption less than 20 MWh - band IA,0.2204,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,NL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2107,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,NL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1766,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,NL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1743,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,NL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.147,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,NL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1366,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,NL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1393,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,PL,TOT_KWH,Consumption of kWh - all bands,0.1564,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,PL,MWH_LT20,Consumption less than 20 MWh - band IA,0.2161,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,PL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1825,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,PL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1555,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,PL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1462,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,PL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1272,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,PL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.13,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S1,PL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1443,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,DE,TOT_KWH,Consumption of kWh - all bands,0.2074,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,DE,MWH_LT20,Consumption less than 20 MWh - band IA,0.2702,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,DE,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2242,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,DE,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2056,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,DE,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1949,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,DE,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1939,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,DE,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1886,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,DE,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.207,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,ES,TOT_KWH,Consumption of kWh - all bands,0.2346,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,ES,MWH_LT20,Consumption less than 20 MWh - band IA,0.3327,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,ES,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2494,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,ES,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2202,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,ES,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.2395,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,ES,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.2249,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,ES,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.2082,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,ES,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.2051,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,EU27_2020,TOT_KWH,Consumption of kWh - all bands,0.2139,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,EU27_2020,MWH_LT20,Consumption less than 20 MWh - band IA,0.2945,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,EU27_2020,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2359,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,EU27_2020,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2107,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,EU27_2020,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.2016,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,EU27_2020,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1925,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,EU27_2020,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1965,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,EU27_2020,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1933,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,FR,TOT_KWH,Consumption of kWh - all bands,0.1281,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,FR,MWH_LT20,Consumption less than 20 MWh - band IA,0.1971,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,FR,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1471,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,FR,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1267,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,FR,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1142,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,FR,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1156,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,FR,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1348,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,FR,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0888,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,IT,TOT_KWH,Consumption of kWh - all bands,0.3378,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,IT,MWH_LT20,Consumption less than 20 MWh - band IA,0.3985,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,IT,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.3427,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,IT,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.3372,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,IT,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.3151,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,IT,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.2977,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,IT,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.334,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,IT,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.3236,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,NL,TOT_KWH,Consumption of kWh - all bands,0.1965,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,NL,MWH_LT20,Consumption less than 20 MWh - band IA,0.3323,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,NL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2265,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,NL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1854,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,NL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.2105,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,NL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1561,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,NL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1499,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,NL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.164,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,PL,TOT_KWH,Consumption of kWh - all bands,0.1822,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,PL,MWH_LT20,Consumption less than 20 MWh - band IA,0.2875,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,PL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2136,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,PL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1702,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,PL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1649,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,PL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1484,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,PL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.14,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2022-S2,PL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.177,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,DE,TOT_KWH,Consumption of kWh - all bands,0.2085,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,DE,MWH_LT20,Consumption less than 20 MWh - band IA,0.3247,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,DE,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2476,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,DE,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2192,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,DE,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.2055,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,DE,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1905,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,DE,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1686,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,DE,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1589,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,ES,TOT_KWH,Consumption of kWh - all bands,0.1588,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,ES,MWH_LT20,Consumption less than 20 MWh - band IA,0.2814,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,ES,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2088,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,ES,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1597,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,ES,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1442,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,ES,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.131,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,ES,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1155,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,ES,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1147,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,EU27_2020,TOT_KWH,Consumption of kWh - all bands,0.2078,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,EU27_2020,MWH_LT20,Consumption less than 20 MWh - band IA,0.3065,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,EU27_2020,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2505,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,EU27_2020,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2151,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,EU27_2020,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.2015,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,EU27_2020,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.179,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,EU27_2020,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1627,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,EU27_2020,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1447,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,FR,TOT_KWH,Consumption of kWh - all bands,0.2099,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,FR,MWH_LT20,Consumption less than 20 MWh - band IA,0.2695,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,FR,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2791,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,FR,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2529,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,FR,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.2235,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,FR,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1676,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,FR,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1219,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,FR,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0806,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,IT,TOT_KWH,Consumption of kWh - all bands,0.2629,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,IT,MWH_LT20,Consumption less than 20 MWh - band IA,0.3505,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,IT,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2917,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,IT,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2443,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,IT,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.242,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,IT,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.2103,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,IT,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.2074,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,IT,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1837,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,NL,TOT_KWH,Consumption of kWh - all bands,0.2581,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,NL,MWH_LT20,Consumption less than 20 MWh - band IA,0.5083,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,NL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.3077,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,NL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2447,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,NL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.2505,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,NL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.2093,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,NL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.2263,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,NL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.2032,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,PL,TOT_KWH,Consumption of kWh - all bands,0.2225,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,PL,MWH_LT20,Consumption less than 20 MWh - band IA,0.292,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,PL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2412,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,PL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2133,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,PL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.2089,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,PL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.2035,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,PL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.2118,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S1,PL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.2166,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,DE,TOT_KWH,Consumption of kWh - all bands,0.2035,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,DE,MWH_LT20,Consumption less than 20 MWh - band IA,0.3279,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,DE,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.248,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,DE,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2175,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,DE,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.2017,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,DE,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1776,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,DE,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.172,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,DE,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1527,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,ES,TOT_KWH,Consumption of kWh - all bands,0.1501,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,ES,MWH_LT20,Consumption less than 20 MWh - band IA,0.2587,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,ES,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1931,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,ES,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1536,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,ES,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1344,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,ES,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1173,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,ES,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1033,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,ES,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1068,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,EU27_2020,TOT_KWH,Consumption of kWh - all bands,0.1936,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,EU27_2020,MWH_LT20,Consumption less than 20 MWh - band IA,0.2969,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,EU27_2020,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2313,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,EU27_2020,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2003,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,EU27_2020,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1866,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,EU27_2020,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1596,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,EU27_2020,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1507,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,EU27_2020,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1321,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,FR,TOT_KWH,Consumption of kWh - all bands,0.1967,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,FR,MWH_LT20,Consumption less than 20 MWh - band IA,0.3032,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,FR,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2403,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,FR,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2133,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,FR,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.2032,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,FR,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1426,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,FR,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1265,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,FR,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.093,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,IT,TOT_KWH,Consumption of kWh - all bands,0.2365,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,IT,MWH_LT20,Consumption less than 20 MWh - band IA,0.3328,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,IT,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2623,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,IT,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2284,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,IT,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.2088,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,IT,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1799,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,IT,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1587,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,IT,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1368,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,NL,TOT_KWH,Consumption of kWh - all bands,0.2235,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,NL,MWH_LT20,Consumption less than 20 MWh - band IA,0.3887,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,NL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2553,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,NL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2176,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,NL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.2289,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,NL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1694,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,NL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.2283,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,NL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1826,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,PL,TOT_KWH,Consumption of kWh - all bands,0.2206,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,PL,MWH_LT20,Consumption less than 20 MWh - band IA,0.3231,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,PL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2501,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,PL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2119,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,PL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1995,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,PL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1953,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,PL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1924,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2023-S2,PL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1997,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,DE,TOT_KWH,Consumption of kWh - all bands,0.1998,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,DE,MWH_LT20,Consumption less than 20 MWh - band IA,0.3293,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,DE,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2723,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,DE,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2328,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,DE,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.2017,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,DE,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1685,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,DE,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1394,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,DE,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1212,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,ES,TOT_KWH,Consumption of kWh - all bands,0.1312,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,ES,MWH_LT20,Consumption less than 20 MWh - band IA,0.2433,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,ES,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1784,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,ES,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1371,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,ES,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1157,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,ES,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1004,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,ES,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0812,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,ES,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0756,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,EU27_2020,TOT_KWH,Consumption of kWh - all bands,0.1773,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,EU27_2020,MWH_LT20,Consumption less than 20 MWh - band IA,0.2871,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,EU27_2020,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2294,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,EU27_2020,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1885,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,EU27_2020,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.163,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,EU27_2020,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1386,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,EU27_2020,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1186,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,EU27_2020,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1067,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,FR,TOT_KWH,Consumption of kWh - all bands,0.1692,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,FR,MWH_LT20,Consumption less than 20 MWh - band IA,0.2588,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,FR,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.238,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,FR,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1802,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,FR,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1409,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,FR,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1136,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,FR,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0733,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,FR,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0829,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,IT,TOT_KWH,Consumption of kWh - all bands,0.2207,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,IT,MWH_LT20,Consumption less than 20 MWh - band IA,0.3483,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,IT,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2444,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,IT,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.209,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,IT,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1839,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,IT,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1539,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,IT,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1316,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,IT,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1136,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,NL,TOT_KWH,Consumption of kWh - all bands,0.2031,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,NL,MWH_LT20,Consumption less than 20 MWh - band IA,0.4099,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,NL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2787,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,NL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2098,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,NL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1956,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,NL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1538,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,NL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1764,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,NL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1143,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,PL,TOT_KWH,Consumption of kWh - all bands,0.2049,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,PL,MWH_LT20,Consumption less than 20 MWh - band IA,0.3098,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,PL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.256,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,PL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2083,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,PL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1805,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,PL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1614,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,PL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1451,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S1,PL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1612,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,DE,TOT_KWH,Consumption of kWh - all bands,0.2045,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,DE,MWH_LT20,Consumption less than 20 MWh - band IA,0.3326,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,DE,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2714,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,DE,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2359,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,DE,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.2076,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,DE,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1712,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,DE,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.143,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,DE,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.139,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,ES,TOT_KWH,Consumption of kWh - all bands,0.1424,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,ES,MWH_LT20,Consumption less than 20 MWh - band IA,0.2399,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,ES,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1744,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,ES,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1426,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,ES,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1294,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,ES,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1143,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,ES,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.088,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,ES,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0974,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,EU27_2020,TOT_KWH,Consumption of kWh - all bands,0.1824,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,EU27_2020,MWH_LT20,Consumption less than 20 MWh - band IA,0.2965,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,EU27_2020,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2279,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,EU27_2020,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1941,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,EU27_2020,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1712,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,EU27_2020,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1444,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,EU27_2020,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1264,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,EU27_2020,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1187,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,FR,TOT_KWH,Consumption of kWh - all bands,0.1616,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,FR,MWH_LT20,Consumption less than 20 MWh - band IA,0.2795,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,FR,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2142,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,FR,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1785,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,FR,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1446,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,FR,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1066,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,FR,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0818,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,FR,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0746,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,IT,TOT_KWH,Consumption of kWh - all bands,0.2373,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,IT,MWH_LT20,Consumption less than 20 MWh - band IA,0.3791,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,IT,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2629,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,IT,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2274,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,IT,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.2006,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,IT,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1709,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,IT,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1492,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,IT,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1343,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,NL,TOT_KWH,Consumption of kWh - all bands,0.1787,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,NL,MWH_LT20,Consumption less than 20 MWh - band IA,0.3994,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,NL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.255,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,NL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.211,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,NL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1961,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,NL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1341,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,NL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1525,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,NL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1045,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,PL,TOT_KWH,Consumption of kWh - all bands,0.2131,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,PL,MWH_LT20,Consumption less than 20 MWh - band IA,0.3242,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,PL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2599,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,PL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.21,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,PL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1878,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,PL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1746,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,PL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1645,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2024-S2,PL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1856,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,DE,TOT_KWH,Consumption of kWh - all bands,0.1959,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,DE,MWH_LT20,Consumption less than 20 MWh - band IA,0.3282,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,DE,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2636,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,DE,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2281,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,DE,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1932,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,DE,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1584,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,DE,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1447,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,DE,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1338,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,ES,TOT_KWH,Consumption of kWh - all bands,0.1412,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,ES,MWH_LT20,Consumption less than 20 MWh - band IA,0.2511,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,ES,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1739,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,ES,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1411,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,ES,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.125,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,ES,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1111,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,ES,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.101,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,ES,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0883,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,EU27_2020,TOT_KWH,Consumption of kWh - all bands,0.1794,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,EU27_2020,MWH_LT20,Consumption less than 20 MWh - band IA,0.2969,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,EU27_2020,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2291,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,EU27_2020,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1903,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,EU27_2020,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.164,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,EU27_2020,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1381,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,EU27_2020,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1246,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,EU27_2020,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.113,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,FR,TOT_KWH,Consumption of kWh - all bands,0.1556,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,FR,MWH_LT20,Consumption less than 20 MWh - band IA,0.2512,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,FR,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2234,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,FR,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1661,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,FR,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1296,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,FR,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0995,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,FR,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.082,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,FR,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0693,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,IT,TOT_KWH,Consumption of kWh - all bands,0.239,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,IT,MWH_LT20,Consumption less than 20 MWh - band IA,0.3994,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,IT,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2597,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,IT,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2336,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,IT,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.203,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,IT,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1658,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,IT,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.146,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,IT,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1207,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,NL,TOT_KWH,Consumption of kWh - all bands,0.1807,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,NL,MWH_LT20,Consumption less than 20 MWh - band IA,0.3837,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,NL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2766,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,NL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2099,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,NL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1889,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,NL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1432,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,NL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1388,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,NL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1062,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,PL,TOT_KWH,Consumption of kWh - all bands,0.2045,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,PL,MWH_LT20,Consumption less than 20 MWh - band IA,0.3322,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,PL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2656,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,PL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1995,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,PL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1726,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,PL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1616,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,PL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1393,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S1,PL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1707,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,DE,TOT_KWH,Consumption of kWh - all bands,0.1921,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,DE,MWH_LT20,Consumption less than 20 MWh - band IA,0.3258,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,DE,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2618,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,DE,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2264,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,DE,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1922,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,DE,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1595,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,DE,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.144,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,DE,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1307,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,ES,TOT_KWH,Consumption of kWh - all bands,0.1313,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,ES,MWH_LT20,Consumption less than 20 MWh - band IA,0.2419,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,ES,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1618,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,ES,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1324,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,ES,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1191,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,ES,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1085,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,ES,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0971,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,ES,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0932,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,EU27_2020,TOT_KWH,Consumption of kWh - all bands,0.1712,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,EU27_2020,MWH_LT20,Consumption less than 20 MWh - band IA,0.298,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,EU27_2020,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2179,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,EU27_2020,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1837,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,EU27_2020,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1596,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,EU27_2020,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1342,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,EU27_2020,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1217,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,EU27_2020,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1096,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,FR,TOT_KWH,Consumption of kWh - all bands,0.1414,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,FR,MWH_LT20,Consumption less than 20 MWh - band IA,0.2688,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,FR,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1946,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,FR,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1534,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,FR,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1212,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,FR,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0853,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,FR,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0715,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,FR,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0614,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,IT,TOT_KWH,Consumption of kWh - all bands,0.2201,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,IT,MWH_LT20,Consumption less than 20 MWh - band IA,0.3771,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,IT,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2377,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,IT,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2203,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,IT,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1948,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,IT,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1643,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,IT,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1417,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,IT,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1168,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,NL,TOT_KWH,Consumption of kWh - all bands,0.167,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,NL,MWH_LT20,Consumption less than 20 MWh - band IA,0.4083,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,NL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2463,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,NL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2011,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,NL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1824,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,NL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1182,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,NL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1211,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,NL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0951,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,PL,TOT_KWH,Consumption of kWh - all bands,0.2059,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,PL,MWH_LT20,Consumption less than 20 MWh - band IA,0.3576,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,PL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2635,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,PL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1935,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,PL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1735,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,PL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.164,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,PL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.149,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2025-S2,PL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1716,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,DE,TOT_KWH,Consumption of kWh - all bands,0.1767,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,DE,MWH_LT20,Consumption less than 20 MWh - band IA,0.2957,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,p,reported
+2026-S1,DE,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2366,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,p,reported
+2026-S1,DE,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2058,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,p,reported
+2026-S1,DE,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1742,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,p,reported
+2026-S1,DE,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1464,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,p,reported
+2026-S1,DE,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1379,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,p,reported
+2026-S1,DE,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1267,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,p,reported
+2026-S1,ES,TOT_KWH,Consumption of kWh - all bands,0.1286,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,ES,MWH_LT20,Consumption less than 20 MWh - band IA,0.2417,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,ES,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.1631,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,ES,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1336,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,ES,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1177,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,ES,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1048,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,ES,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0917,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,ES,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0777,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,EU27_2020,TOT_KWH,Consumption of kWh - all bands,0.1699,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,EU27_2020,MWH_LT20,Consumption less than 20 MWh - band IA,0.2868,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,EU27_2020,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2165,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,EU27_2020,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.18,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,EU27_2020,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1559,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,EU27_2020,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1346,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,EU27_2020,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1212,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,EU27_2020,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1128,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,FR,TOT_KWH,Consumption of kWh - all bands,0.1474,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,FR,MWH_LT20,Consumption less than 20 MWh - band IA,0.2527,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,FR,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2049,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,FR,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.1567,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,FR,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1239,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,FR,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.0979,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,FR,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.0794,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,FR,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.0722,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,IT,TOT_KWH,Consumption of kWh - all bands,0.2314,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,IT,MWH_LT20,Consumption less than 20 MWh - band IA,0.3887,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,IT,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2575,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,IT,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2253,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,IT,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1991,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,IT,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1726,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,IT,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1488,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,IT,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1332,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,NL,TOT_KWH,Consumption of kWh - all bands,0.1796,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,NL,MWH_LT20,Consumption less than 20 MWh - band IA,0.4113,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,NL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.2693,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,NL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.2027,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,NL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1824,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,NL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1391,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,NL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1252,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,NL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1058,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,PL,TOT_KWH,Consumption of kWh - all bands,0.2112,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,PL,MWH_LT20,Consumption less than 20 MWh - band IA,0.3415,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,PL,MWH20-499,Consumption from 20 MWh to 499 MWh - band IB,0.265,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,PL,MWH500-1999,Consumption from 500 MWh to 1 999 MWh - band IC,0.207,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,PL,MWH2000-19999,Consumption from 2 000 MWh to 19 999 MWh - band ID,0.1812,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,PL,MWH20000-69999,Consumption from 20 000 MWh to 69 999 MWh - band IE,0.1687,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,PL,MWH70000-149999,Consumption from 70 000 MWh to 149 999 MWh - band IF,0.1501,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported
+2026-S1,PL,MWH_GE150000,Consumption 150 000 MWh or over - band IG,0.1844,EUR/kWh,X_VAT,Excluding VAT and other recoverable taxes and levies,,reported

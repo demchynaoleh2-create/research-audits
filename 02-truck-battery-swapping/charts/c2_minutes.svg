@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="504.243219pt" height="185.870901pt" viewBox="0 0 504.243219 185.870901" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-16T18:10:21.278516</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 185.870901 
+L 504.243219 185.870901 
+L 504.243219 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 119.11125 156.131526 
+L 501.363219 156.131526 
+L 501.363219 29.53625 
+L 119.11125 29.53625 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 119.11125 156.131526 
+L 119.11125 29.53625 
+" clip-path="url(#pa4d9a704d9)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="119.11125" y="167.381526" transform="rotate(-0 119.11125 167.381526)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 172.201801 156.131526 
+L 172.201801 29.53625 
+" clip-path="url(#pa4d9a704d9)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="172.201801" y="167.381526" transform="rotate(-0 172.201801 167.381526)">10</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 225.292352 156.131526 
+L 225.292352 29.53625 
+" clip-path="url(#pa4d9a704d9)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="225.292352" y="167.381526" transform="rotate(-0 225.292352 167.381526)">20</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 278.382904 156.131526 
+L 278.382904 29.53625 
+" clip-path="url(#pa4d9a704d9)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="278.382904" y="167.381526" transform="rotate(-0 278.382904 167.381526)">30</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 331.473455 156.131526 
+L 331.473455 29.53625 
+" clip-path="url(#pa4d9a704d9)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="331.473455" y="167.381526" transform="rotate(-0 331.473455 167.381526)">40</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 384.564006 156.131526 
+L 384.564006 29.53625 
+" clip-path="url(#pa4d9a704d9)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_6">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="384.564006" y="167.381526" transform="rotate(-0 384.564006 167.381526)">50</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 437.654557 156.131526 
+L 437.654557 29.53625 
+" clip-path="url(#pa4d9a704d9)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_14"/>
+     <g id="text_7">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="437.654557" y="167.381526" transform="rotate(-0 437.654557 167.381526)">60</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_15">
+      <path d="M 490.745108 156.131526 
+L 490.745108 29.53625 
+" clip-path="url(#pa4d9a704d9)" style="fill: none; stroke: #e8e7e3; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_16"/>
+     <g id="text_8">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #8a8984" x="490.745108" y="167.381526" transform="rotate(-0 490.745108 167.381526)">70</text>
+     </g>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #5f5e5a" x="310.237234" y="181.061213" transform="rotate(-0 310.237234 181.061213)">minutes the truck stands still per energy stop</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_17"/>
+     <g id="text_10">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #8a8984" x="115.61125" y="50.674242" transform="rotate(-0 115.61125 50.674242)">Battery swap</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_18"/>
+     <g id="text_11">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #8a8984" x="115.61125" y="96.708888" transform="rotate(-0 115.61125 96.708888)">Megawatt charging, 20→80%</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_19"/>
+     <g id="text_12">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #8a8984" x="115.61125" y="142.743533" transform="rotate(-0 115.61125 142.743533)">CCS charging, 20→80%</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 119.11125 35.290581 
+L 145.656526 35.290581 
+L 145.656526 58.307904 
+L 119.11125 58.307904 
+z
+" clip-path="url(#pa4d9a704d9)" style="fill: #e0612a"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 119.11125 81.325226 
+L 278.382904 81.325226 
+L 278.382904 104.342549 
+L 119.11125 104.342549 
+z
+" clip-path="url(#pa4d9a704d9)" style="fill: #2a6fc9"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 278.382904 81.325226 
+L 331.473455 81.325226 
+L 331.473455 104.342549 
+L 278.382904 104.342549 
+z
+" clip-path="url(#pa4d9a704d9)" style="fill: #b9d2f0"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 119.11125 127.359872 
+L 437.654557 127.359872 
+L 437.654557 150.377195 
+L 119.11125 150.377195 
+z
+" clip-path="url(#pa4d9a704d9)" style="fill: #b4b2a9"/>
+   </g>
+   <g id="line2d_20">
+    <path d="M 358.01873 156.131526 
+L 358.01873 29.53625 
+" clip-path="url(#pa4d9a704d9)" style="fill: none; stroke: #1a1a19; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 119.11125 156.131526 
+L 501.363219 156.131526 
+" style="fill: none; stroke: #e8e7e3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #1a1a19" x="152.027392" y="49.709398" transform="rotate(-0 152.027392 49.709398)">~5 min</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #1a1a19" x="364.389596" y="95.744044" transform="rotate(-0 364.389596 95.744044)">30–40 min</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #1a1a19" x="444.025423" y="141.77869" transform="rotate(-0 444.025423 141.77869)">~60 min</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7.5px; font-family: 'Inter'; fill: #1a1a19" transform="translate(362.265974 44.99016)">legal break after</text>
+    <text style="font-size: 7.5px; font-family: 'Inter'; fill: #1a1a19" transform="translate(362.265974 54.064867)">4.5 h driving: 45 min</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: start; fill: #5f5e5a" x="119.11125" y="25.195262" transform="rotate(-0 119.11125 25.195262)">Manufacturer and analyst figures; the swap time is CATL's corridor figure.</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 500; font-size: 11px; font-family: 'Inter'; text-anchor: start; fill: #1a1a19" x="119.11125" y="13.53625" transform="rotate(-0 119.11125 13.53625)">Megawatt charging fits inside the break a driver must take anyway</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa4d9a704d9">
+   <rect x="119.11125" y="29.53625" width="382.251969" height="126.595276"/>
+  </clipPath>
+ </defs>
+</svg>

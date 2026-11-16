@@ -1,0 +1,14 @@
+item,value,unit,page,note
+driver_cost_per_driving_hour,42.36,EUR/h,30,Dutch-contract driver on international routes
+driver_cost_per_year,81704.62,EUR/yr,30-31,
+driving_hours_per_year,1929,h/yr,30,
+vehicle_financing_ownership,21470,EUR/yr,26 and 31,time-related vehicle cost
+insurance,2425,EUR/yr,27 and 31,time-related vehicle cost
+vehicle_taxes,1040,EUR/yr,27 and 31,axle tax and other vehicle taxes; time-related
+overheads,21699,EUR/yr,27 and 31,fixed structure costs (~11% of total)
+tyres,3400,EUR/yr,27 and 31,distance-related; excluded from hourly standing cost
+maintenance_repairs,8500,EUR/yr,26 and 31,distance-related; excluded
+fuel,38592,EUR/yr,31,distance-related; excluded
+tolls,14350,EUR/yr,27 and 31,distance-related; excluded
+annual_vehicle_km,123100,km/yr,26 and 31,
+full_cost_per_km,1.60,EUR/km,31,

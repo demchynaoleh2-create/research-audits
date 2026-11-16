@@ -1,0 +1,51 @@
+# Acceptance checks for release 1.0.
+# Each check encodes a finding from the two independent reviews (ids F.. = second review,
+# A.. = first review) so that a later edit cannot silently bring an error back.
+# Types:
+#   absent  — regex must NOT match the rendered report.html of the case
+#   present — regex MUST match the rendered report.html of the case
+#   fact    — Python expression over facts.json (name f) must be true
+# Global checks (every case and repo-wide) live in run_checks.py.
+
+- {id: F01-P0-01, case: 01, type: present, pattern: 'July 2018', why: 'duty dated from the July 2018 provisional measure'}
+- {id: F01-P0-01b, case: 01, type: absent, pattern: '(?i)first (year|imposed)[^.]{0,40}2019(?! as a whole)', why: 'no "duties began in 2019"'}
+- {id: F01-P0-01c, case: 01, type: fact, expr: 'abs(f["drop_jul_sep"] + 93.6) < 0.1', why: 'Jul→Sep 2018 collapse computed, not typed'}
+- {id: F01-P0-02, case: 01, type: absent, pattern: '(?i)two to six times', why: 'Vietnam range is 1.3–6.6'}
+- {id: F01-P0-02b, case: 01, type: fact, expr: 'round(f["vn_lo"],1)==1.3 and round(f["vn_hi"],1)==6.6', why: 'Vietnam mirror range'}
+- {id: F01-P0-03, case: 01, type: present, pattern: 'HS 8711 60', why: 'mirror check labelled with its real category'}
+- {id: F01-P0-03b, case: 01, type: absent, pattern: '(?i)1\.3 ?m(illion)? (more )?e-bikes', why: 'the 1.3m gap is not "e-bikes"'}
+- {id: F01-P0-03c, case: 01, type: fact, expr: 'f["ebike_share24"] < 5', why: 'e-bike share of the category disclosed'}
+- {id: F01-P1-01, case: 01, type: present, pattern: 'necessary but not sufficient', why: '60/25 thresholds are necessary for a finding, not for escaping it'}
+- {id: F01-P1-02, case: 01, type: absent, pattern: '(?i)follows the exporter', why: 'the duty attaches to the producer'}
+- {id: F01-P1-04, case: 01, type: fact, expr: 'f["ratio25"] > 1.15 and f["pooled"] > f["ratio_hi"]', why: 'timing rival tested on 2025'}
+- {id: F01-P1-05, case: 01, type: absent, pattern: '412,772', why: 'incomplete Prodcom figure removed'}
+- {id: F01-P2-02, case: 01, type: absent, pattern: '(?i)evaded', why: 'amounts "at stake", not "evaded"'}
+- {id: F02-P0-02, case: 02, type: absent, pattern: '8[–-]28', why: 'selected-operator range replaced'}
+- {id: F02-P0-02b, case: 02, type: fact, expr: 'f["n_tariffs"] >= 70 and 9 <= f["be_ctry_lo"] <= f["be_ctry_hi"] <= 15', why: 'full price list, country-matched thresholds'}
+- {id: F02-P1-01, case: 02, type: fact, expr: 'f["be_eu_low"] < f["be_eu"]', why: 'low-capital sensitivity shown'}
+- {id: F02-P1-02, case: 02, type: present, pattern: '(?i)closed loop', why: 'closed loop has its own calculation'}
+- {id: F02-P1-02b, case: 02, type: fact, expr: '60 < f["hour"] < 75 and f["be_ccs"] > 0', why: 'closed loop priced on a sourced hourly cost'}
+- {id: F02-P1-04, case: 02, type: absent, pattern: '55 ?% ?(→|to) ?23', why: 'no stitched 55→23 series'}
+- {id: F02-P1-04b, case: 02, type: present, pattern: 'steady share of about 30%', why: 'ICCT reading checked against the original'}
+- {id: F02-P2-01, case: 02, type: fact, expr: 'f["period"] == "2026-S1"', why: 'latest electricity period'}
+- {id: A-ECV, case: 02, type: present, pattern: '(?i)electrically chargeable', why: 'ACEA ECV is not BEV'}
+- {id: A-305, case: 02, type: absent, pattern: '(?i)305 (swap )?stations (in|across) China', why: '305 is one operator, not China'}
+- {id: F03-P1-01, case: 03, type: present, pattern: '23 \+ 4 = 27', why: 'C52 decided by addition'}
+- {id: F03-P1-02, case: 03, type: present, pattern: 'input/prompt\.md', why: 'generating prompt published'}
+- {id: F03-P1-03, case: 03, type: fact, expr: 'abs(f["q3_2026_vs_q3_2021"] + 6.5) < 0.1', why: 'like-for-like quarter comparison'}
+- {id: F03-P2-01, case: 03, type: absent, pattern: 'within 0\.2 ?pp', why: 'max deviation is 0.24 pp'}
+- {id: F03-P2-04, case: 03, type: present, pattern: 'Strathern', why: 'Goodhart wording credited to Strathern'}
+- {id: A-plateau, case: 03, type: absent, pattern: '(?i)all (seven )?readings', why: 'plateau holds for 5 of 7 readings'}
+- {id: A-counts, case: 03, type: fact, expr: 'f["n_claims"] == 78', why: 'register size'}
+- {id: X03-01, case: 03, type: fact, expr: 'f["yoy_n"] == 9 and f["rec_fire"] == "February"', why: 'full 2026 monthly series; recovery signal stated'}
+- {id: X03-01b, case: 03, type: absent, pattern: 'lack a full prior-year base', why: 'Jan–Feb do have a base'}
+- {id: X03-02, case: 03, type: fact, expr: 'f["supported_share"] == 59 and f["republisher_share"] == 14', why: 'NBU sheet 2.3 confirms country claims'}
+- {id: X03-02b, case: 03, type: absent, pattern: 'not the central bank table', why: 'C31 is in the central bank table'}
+- {id: X03-03, case: 03, type: fact, expr: 'f["crit_firm"] == 3', why: 'C52 partly right, not contradicted'}
+- {id: X03-04, case: 03, type: present, pattern: 'We commissioned this report ourselves', why: 'strongest objection to the audit itself'}
+- {id: X01-01, case: 01, type: absent, pattern: 'widening mirror gap show', why: 'mirror gap does not measure e-bike evasion'}
+- {id: X01-02, case: 01, type: absent, pattern: 'misdates the event', why: 'Commission sentence right for definitive duties'}
+- {id: X02-01, case: 02, type: absent, pattern: '1,700 (public )?megawatt', why: '1,700 are high-performance points'}
+- {id: X02-02, case: 02, type: fact, expr: 'f["be_ccs2"] > f["be_ccs"]', why: 'two-shift hourly cost shown'}
+- {id: X02-03, case: 02, type: absent, pattern: 'highest (of published )?estimate', why: '€1.8m is our build-up'}
+- {id: X02-04, case: 02, type: present, pattern: 'One driver, only CCS charging', why: 'single driver on CCS priced'}
